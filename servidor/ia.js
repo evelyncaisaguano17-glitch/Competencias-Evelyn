@@ -4,6 +4,9 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as almacen from './almacen.js';
 import { validarEsquema } from './esquemas-ia.js';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const DIR_PROMPTS = fileURLToPath(new URL('./prompts', import.meta.url));
 

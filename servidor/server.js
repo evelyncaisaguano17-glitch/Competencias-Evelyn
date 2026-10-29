@@ -157,6 +157,12 @@ const esPrincipal = process.argv[1] && (
 );
 
 if (esPrincipal) {
+  try {
+    const { sembrar } = await import('./semilla.js');
+    await sembrar({ forzar: false });
+  } catch (errSemilla) {
+    console.warn('Aviso semilla:', errSemilla.message);
+  }
   servidor = app.listen(PUERTO, () => {
     console.log(`Servidor iniciado en http://localhost:${PUERTO}`);
   });
