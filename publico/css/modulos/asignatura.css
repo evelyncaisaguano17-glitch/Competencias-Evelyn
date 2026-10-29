@@ -1,0 +1,527 @@
+/* publico/css/modulos/asignatura.css · Estilos para detalle de asignatura y Tutor Socrático Vertical */
+
+.seccion-asignatura {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-l);
+  padding-block: var(--espacio-m);
+  width: 100%;
+}
+
+.migas-pan {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+  font-size: var(--tamano-s);
+  color: var(--color-texto-suave);
+  flex-wrap: wrap;
+}
+
+.migas-pan a {
+  color: var(--color-primario);
+  text-decoration: none;
+}
+
+.migas-pan a:hover {
+  text-decoration: underline;
+}
+
+.asignatura-hero {
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  box-shadow: var(--sombra-1);
+  padding: var(--espacio-l);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-m);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.asignatura-hero h2 {
+  margin: 0;
+  font-size: var(--tamano-xl);
+  color: var(--color-primario);
+}
+
+/* ==========================================================================
+   Layout Vertical: Temario en la parte superior y Tutor Socrático abajo
+   ========================================================================== */
+.asignatura-layout {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-xl);
+  width: 100%;
+}
+
+/* ==========================================================================
+   Sección: Temario y Unidades (Ancho completo, flujo vertical)
+   ========================================================================== */
+.asignatura-columna-temario {
+  width: 100%;
+}
+
+.asignatura-unidades-lista {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-l);
+  width: 100%;
+}
+
+.unidad-bloque {
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  box-shadow: var(--sombra-1);
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.unidad-bloque__cabecera {
+  background-color: var(--color-fondo);
+  border-bottom: 1px solid var(--color-borde);
+  padding: var(--espacio-m) var(--espacio-l);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--espacio-s);
+}
+
+.unidad-bloque__titulo {
+  margin: 0;
+  font-size: var(--tamano-m);
+  font-weight: var(--peso-negrita);
+  color: var(--color-primario);
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-s);
+}
+
+.temas-lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tema-fila {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-s);
+  padding: var(--espacio-m) var(--espacio-l);
+  border-bottom: 1px solid var(--color-borde);
+  transition: background-color var(--transicion);
+}
+
+.tema-fila:last-child {
+  border-bottom: none;
+}
+
+.tema-fila:hover {
+  background-color: var(--color-fondo);
+}
+
+@media (min-width: 640px) {
+  .tema-fila {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.tema-fila__info {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-s);
+  flex: 1;
+}
+
+.tema-fila__orden {
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radio-completo);
+  background-color: var(--color-fondo);
+  border: 1px solid var(--color-borde);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--tamano-xs);
+  font-weight: var(--peso-negrita);
+  color: var(--color-texto-suave);
+  flex-shrink: 0;
+}
+
+.tema-fila__acciones {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-s);
+  flex-shrink: 0;
+}
+
+/* ==========================================================================
+   Sección: Panel del Tutor Virtual Socrático (Despliegue Vertical hacia abajo)
+   ========================================================================== */
+.asignatura-columna-tutor {
+  width: 100%;
+}
+
+.tutor-panel {
+  background: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  box-shadow: var(--sombra-2);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Cabecera del chat */
+.tutor-panel__cabecera {
+  background: linear-gradient(135deg, var(--color-primario) 0%, #173852 100%);
+  color: var(--color-texto-inverso);
+  padding: var(--espacio-m) var(--espacio-l);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--espacio-s);
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+.tutor-panel__perfil {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-s);
+}
+
+.tutor-panel__avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: var(--radio-completo);
+  background: rgba(255, 255, 255, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  flex-shrink: 0;
+}
+
+.tutor-panel__titulo {
+  margin: 0;
+  font-size: var(--tamano-m);
+  font-weight: var(--peso-seminegrita);
+  color: var(--color-texto-inverso);
+  line-height: 1.2;
+}
+
+.tutor-panel__subtitulo {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+  font-size: var(--tamano-xs);
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 2px;
+}
+
+.tutor-panel__indicador-online {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--radio-completo);
+  background: #22c55e;
+  display: inline-block;
+  box-shadow: 0 0 6px #22c55e;
+}
+
+.tutor-panel__acciones-cabecera {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+}
+
+.tutor-panel__acciones-cabecera .btn {
+  color: var(--color-texto-inverso);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.tutor-panel__acciones-cabecera .btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Píldoras de sugerencias curriculares */
+.tutor-panel__sugerencias-wrapper {
+  background: var(--color-fondo);
+  border-bottom: 1px solid var(--color-borde);
+  padding: var(--espacio-s) var(--espacio-l);
+  flex-shrink: 0;
+}
+
+.tutor-panel__sugerencias-label {
+  display: block;
+  font-size: var(--tamano-xs);
+  font-weight: var(--peso-seminegrita);
+  color: var(--color-texto-suave);
+  margin-bottom: var(--espacio-xs);
+}
+
+.tutor-panel__sugerencias-scroll {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espacio-s);
+  align-items: center;
+}
+
+.tutor-pildora {
+  background: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-completo);
+  padding: 6px 14px;
+  font-size: var(--tamano-xs);
+  color: var(--color-texto);
+  cursor: pointer;
+  transition: all var(--transicion);
+  flex-shrink: 0;
+  text-align: left;
+}
+
+.tutor-pildora:hover {
+  border-color: var(--color-primario);
+  background: #eef5fa;
+  transform: translateY(-1px);
+}
+
+/* Lista de mensajes (flujo vertical) */
+.tutor-panel__mensajes {
+  min-height: 280px;
+  max-height: 520px;
+  overflow-y: auto;
+  padding: var(--espacio-l);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-m);
+  background: #fafbfc;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+/* Burbujas de chat */
+.tutor-mensaje {
+  display: flex;
+  gap: var(--espacio-s);
+  max-width: 82%;
+  align-items: flex-start;
+  animation: aparecerMensaje 0.25s ease-out;
+}
+
+@keyframes aparecerMensaje {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tutor-mensaje--tutor {
+  align-self: flex-start;
+}
+
+.tutor-mensaje--estudiante {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+
+.tutor-mensaje__avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: var(--radio-completo);
+  background: var(--color-fondo);
+  border: 1px solid var(--color-borde);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  flex-shrink: 0;
+}
+
+.tutor-mensaje--tutor .tutor-mensaje__avatar {
+  background: #e6f0f7;
+  border-color: #bcd4e6;
+}
+
+.tutor-mensaje--estudiante .tutor-mensaje__avatar {
+  background: var(--color-primario);
+  color: var(--color-texto-inverso);
+  border-color: var(--color-primario);
+  font-size: 0.95rem;
+}
+
+.tutor-mensaje__cuerpo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.tutor-mensaje__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+  padding: 0 4px;
+}
+
+.tutor-mensaje--estudiante .tutor-mensaje__meta {
+  justify-content: flex-end;
+}
+
+.tutor-mensaje__remitente {
+  font-weight: var(--peso-seminegrita);
+}
+
+.tutor-mensaje__texto {
+  padding: var(--espacio-m) var(--espacio-l);
+  border-radius: var(--radio-m);
+  font-size: var(--tamano-s);
+  line-height: var(--interlineado-base);
+  word-break: break-word;
+}
+
+.tutor-mensaje--tutor .tutor-mensaje__texto {
+  background: var(--color-superficie);
+  color: var(--color-texto);
+  border: 1px solid var(--color-borde);
+  box-shadow: var(--sombra-1);
+  border-top-left-radius: 2px;
+}
+
+.tutor-mensaje--estudiante .tutor-mensaje__texto {
+  background: var(--color-primario);
+  color: var(--color-texto-inverso);
+  box-shadow: var(--sombra-1);
+  border-top-right-radius: 2px;
+}
+
+.tutor-mensaje__texto p {
+  margin: 0 0 var(--espacio-xs) 0;
+}
+
+.tutor-mensaje__texto p:last-child {
+  margin-bottom: 0;
+}
+
+.tutor-mensaje__texto ul,
+.tutor-mensaje__texto ol {
+  margin: var(--espacio-xs) 0;
+  padding-left: var(--espacio-l);
+}
+
+/* Indicador de pensamiento socrático */
+.tutor-pensando {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-s);
+  padding: var(--espacio-xs) var(--espacio-l);
+  margin-bottom: var(--espacio-xs);
+  flex-shrink: 0;
+}
+
+.tutor-pensando__avatar {
+  font-size: 1.25rem;
+}
+
+.tutor-pensando__burbuja {
+  background: #eef5fa;
+  border: 1px dashed var(--color-primario);
+  border-radius: var(--radio-m);
+  padding: 6px 14px;
+  font-size: var(--tamano-xs);
+  color: var(--color-primario);
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+}
+
+.tutor-pensando__puntos span {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: var(--peso-negrita);
+  line-height: 0.5;
+  animation: pulsoPuntos 1.4s infinite;
+}
+
+.tutor-pensando__puntos span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.tutor-pensando__puntos span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes pulsoPuntos {
+  0%, 80%, 100% {
+    opacity: 0.2;
+    transform: translateY(0);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(-2px);
+  }
+}
+
+/* Formulario de entrada */
+.tutor-panel__formulario {
+  background: var(--color-superficie);
+  border-top: 1px solid var(--color-borde);
+  padding: var(--espacio-m) var(--espacio-l);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-s);
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.tutor-panel__input {
+  width: 100%;
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+  padding: var(--espacio-s) var(--espacio-m);
+  font-size: var(--tamano-s);
+  font-family: inherit;
+  resize: vertical;
+  box-sizing: border-box;
+  background: var(--color-fondo);
+  transition: all var(--transicion);
+  min-height: 56px;
+  max-height: 140px;
+}
+
+.tutor-panel__input:focus {
+  outline: none;
+  border-color: var(--color-primario);
+  background: var(--color-superficie);
+  box-shadow: 0 0 0 3px rgba(0, 46, 69, 0.1);
+}
+
+.tutor-panel__barra-inferior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--espacio-s);
+}
+
+.tutor-panel__barra-inferior kbd {
+  background: var(--color-fondo);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-s);
+  padding: 1px 5px;
+  font-family: monospace;
+}

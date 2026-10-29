@@ -1,0 +1,193 @@
+/* publico/css/modulos/noticias.css · Vista de catálogo de noticias estilo portal editorial */
+
+.noticias-encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.noticias-encabezado h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #0b2238;
+  margin: 0 0 0.35rem 0;
+}
+
+.filtros-barra {
+  padding: 1.5rem 1.75rem;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  margin-bottom: 2.5rem;
+}
+
+.filtros-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 1.5rem;
+  align-items: end;
+}
+
+@media (max-width: 800px) {
+  .filtros-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+/* Grilla de noticias estilo periódico / portal moderno */
+.noticias-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 1.75rem;
+  margin-bottom: 2.5rem;
+}
+
+.tarjeta-noticia {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.tarjeta-noticia:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  border-color: #cbd5e1;
+}
+
+.tarjeta-noticia--destacada {
+  border-color: #93c5fd;
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.1);
+}
+
+/* Imagen con proporción 16:9 */
+.tarjeta-noticia__img-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: #f1f5f9;
+  overflow: hidden;
+}
+
+.tarjeta-noticia__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+.tarjeta-noticia:hover .tarjeta-noticia__img {
+  transform: scale(1.04);
+}
+
+/* Cuerpo de la noticia */
+.tarjeta-noticia__cuerpo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1.25rem;
+  gap: 0.5rem;
+}
+
+/* Titular con categoría integrada como en el ejemplo editorial */
+.tarjeta-noticia__titular-linea {
+  line-height: 1.35;
+  margin: 0;
+}
+
+.noticia-categoria-acento {
+  font-weight: 700;
+  font-size: 1rem;
+  display: inline;
+}
+
+.noticia-cat--institucional {
+  color: #0284c7; /* Azul tipo Guayaquil */
+}
+
+.noticia-cat--academica {
+  color: #ea580c; /* Naranja rojizo tipo Afull */
+}
+
+.noticia-cat--clinica {
+  color: #0d9488; /* Verde azulado tipo Negocios */
+}
+
+.noticia-cat--general {
+  color: #2563eb;
+}
+
+.noticia-separador {
+  margin: 0 0.35rem;
+  color: #64748b;
+  font-weight: 400;
+  display: inline;
+}
+
+.tarjeta-noticia__titulo {
+  display: inline;
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.35;
+}
+
+.tarjeta-noticia__titulo a {
+  color: #1e293b;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.tarjeta-noticia__titulo a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.tarjeta-noticia__resumen {
+  font-size: 0.88rem;
+  color: #64748b;
+  margin: 0.25rem 0 0 0;
+  line-height: 1.5;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.noticia-tema-tag {
+  font-size: 0.78rem;
+  color: #94a3b8;
+  margin-top: 0.25rem;
+}
+
+/* Pie de la tarjeta */
+.tarjeta-noticia__pie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 0.85rem;
+  border-top: 1px solid #f1f5f9;
+  font-size: 0.82rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.noticia-fecha {
+  color: #64748b;
+  font-size: 0.82rem;
+}

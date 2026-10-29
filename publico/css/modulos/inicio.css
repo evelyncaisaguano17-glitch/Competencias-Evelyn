@@ -1,0 +1,477 @@
+/* publico/css/modulos/inicio.css · Diseño espacioso y moderno estilo RUNACHAY */
+
+/* ==========================================================================
+   1. VISTA PÚBLICA (SIN SESIÓN)
+   ========================================================================== */
+.inicio-hero-publico {
+  padding: 3.5rem 2.5rem;
+  background: linear-gradient(135deg, #e8f2fc 0%, #f3f8fe 50%, #ffffff 100%);
+  border: 1px solid #d4e4f5;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(15, 44, 68, 0.05);
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.inicio-hero-publico__titulo {
+  font-size: 2.5rem;
+  color: #0b2238;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.inicio-hero-publico__descripcion {
+  font-size: 1.15rem;
+  color: #4b647d;
+  max-width: 760px;
+  margin-inline: auto;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.inicio-hero-publico__acciones {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.inicio-caracteristicas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.75rem;
+  margin-bottom: 3rem;
+}
+
+.tarjeta-caracteristica {
+  padding: 2rem 1.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tarjeta-caracteristica:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.tarjeta-caracteristica__icono {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* ==========================================================================
+   2. BANNER DE BIENVENIDA (VISTA CON SESIÓN)
+   ========================================================================== */
+.banner-bienvenida {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2.5rem;
+  background: linear-gradient(135deg, #e3f2fd 0%, #eef7ff 50%, #f8fbff 100%);
+  border: 1px solid #cbe4fb;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(37, 99, 235, 0.05);
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-bienvenida__texto {
+  max-width: 650px;
+  z-index: 2;
+}
+
+.banner-bienvenida__saludo {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #0b2238;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: -0.02em;
+}
+
+.banner-bienvenida__subtitulo {
+  font-size: 1.1rem;
+  color: #4b647d;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.banner-bienvenida__ilustracion {
+  flex-shrink: 0;
+  width: 200px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .banner-bienvenida {
+    padding: 1.5rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  .banner-bienvenida__ilustracion {
+    margin-top: 1rem;
+  }
+}
+
+/* ==========================================================================
+   3. PESTAÑAS Y ACCESOS RÁPIDOS
+   ========================================================================== */
+.inicio-pestanas {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.pildora-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.4rem;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  background-color: #e2e8f0;
+  color: #334155;
+  transition: all 0.2s;
+}
+
+.pildora-tab--activa {
+  background-color: #1565c0 !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(21, 101, 192, 0.25);
+}
+
+.pildora-tab:hover:not(.pildora-tab--activa) {
+  background-color: #cbd5e1;
+  color: #0f172a;
+}
+
+.inicio-accesos-docente {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.75rem;
+  padding: 0.85rem 1.25rem;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  align-items: center;
+}
+
+.inicio-accesos-docente span {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #64748b;
+  text-transform: uppercase;
+  margin-right: 0.5rem;
+}
+
+/* Barra de filtros */
+.inicio-barra-filtros {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+  flex-wrap: wrap;
+}
+
+.inicio-barra-filtros__busqueda {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex: 1;
+  max-width: 480px;
+}
+
+.inicio-input-buscar {
+  padding: 0.6rem 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+/* ==========================================================================
+   4. TARJETA CONTINUAR DONDE TE QUEDASTE
+   ========================================================================== */
+.inicio-continuar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.75rem;
+  background: linear-gradient(to right, #ffffff, #f0f7ff);
+  border: 1px solid #bfdbfe;
+  border-left: 6px solid #2563eb;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.05);
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.inicio-continuar__info h3 {
+  color: #0f172a;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0.25rem 0 0 0;
+}
+
+/* ==========================================================================
+   5. CUADRÍCULA DE ASIGNATURAS (ESTILO RUNACHAY)
+   ========================================================================== */
+.inicio-seccion-titulo {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inicio-asignaturas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.75rem;
+  margin-bottom: 3rem;
+}
+
+.tarjeta-asignatura-runachay {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.tarjeta-asignatura-runachay:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.tarjeta-asignatura__banner {
+  height: 120px;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 1rem;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Paletas temáticas de banner */
+.tarjeta-asignatura__banner--azul {
+  background: linear-gradient(135deg, #6366f1 0%, #3b82f6 100%);
+}
+.tarjeta-asignatura__banner--turquesa {
+  background: linear-gradient(135deg, #06b6d4 0%, #0284c7 100%);
+}
+.tarjeta-asignatura__banner--naranja {
+  background: linear-gradient(135deg, #f59e0b 0%, #ea580c 100%);
+}
+.tarjeta-asignatura__banner--morado {
+  background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+}
+
+.tarjeta-asignatura__icono-ilustrativo {
+  position: absolute;
+  left: 1.25rem;
+  bottom: 0.75rem;
+  font-size: 3rem;
+  opacity: 0.85;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.15));
+}
+
+.tarjeta-asignatura__badge-usuario {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #2563eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  z-index: 2;
+}
+
+.tarjeta-asignatura__cuerpo {
+  padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjeta-asignatura__nombre {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 0.35rem 0;
+  line-height: 1.3;
+}
+
+.tarjeta-asignatura__nivel {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #2563eb;
+  margin: 0 0 0.25rem 0;
+}
+
+.tarjeta-asignatura__descripcion {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin: 0 0 1rem 0;
+  line-height: 1.5;
+  flex: 1;
+}
+
+.tarjeta-asignatura__progreso-wrap {
+  margin-top: auto;
+  padding-bottom: 0.5rem;
+}
+
+.barra-progreso,
+.tarjeta-asignatura__progreso-barra {
+  width: 100%;
+  height: 8px;
+  background-color: #e2e8f0;
+  border-radius: 9999px;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.barra-progreso__relleno,
+.tarjeta-asignatura__progreso-relleno {
+  height: 100%;
+  background-color: #2563eb;
+  border-radius: 9999px;
+  transition: width 0.3s ease;
+}
+
+.tarjeta-asignatura__pie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+  border-top: 1px solid #f1f5f9;
+}
+
+.tarjeta-asignatura__docente {
+  font-size: 0.8rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.btn-circular-accion {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #2563eb;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.3);
+  transition: background-color 0.2s, transform 0.2s;
+  flex-shrink: 0;
+}
+
+.btn-circular-accion:hover {
+  background-color: #1d4ed8;
+  transform: scale(1.08);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* ==========================================================================
+   6. CUADRÍCULA DE NOTICIAS
+   ========================================================================== */
+.inicio-noticias-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.75rem;
+  margin-bottom: 3rem;
+}
+
+.tarjeta-noticia-inicio {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  padding: 1.75rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.tarjeta-noticia-inicio:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.07);
+}
+
+.tarjeta-noticia-inicio--destacada {
+  border-color: #93c5fd;
+  background: linear-gradient(to bottom, #ffffff, #f8fbff);
+}
+
+.tarjeta-noticia-inicio__etiquetas {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.85rem;
+}
+
+.tarjeta-noticia-inicio__titulo {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0 0 0.65rem 0;
+  line-height: 1.35;
+}
+
+.tarjeta-noticia-inicio__titulo a {
+  color: #0f172a;
+  text-decoration: none;
+}
+
+.tarjeta-noticia-inicio__titulo a:hover {
+  color: #2563eb;
+}
+
+.tarjeta-noticia-inicio__resumen {
+  font-size: 0.9rem;
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0 0 1.25rem 0;
+  flex: 1;
+}
+
+.tarjeta-noticia-inicio__pie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid #f1f5f9;
+}

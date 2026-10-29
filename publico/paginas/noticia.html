@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Noticia · Ecosistema Educativo</title>
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/componentes.css">
+  <link rel="stylesheet" href="/css/modulos/noticia.css">
+</head>
+<body>
+  <div id="plantilla"></div>
+  <main id="contenido" class="contenedor">
+    <nav class="migas margen-b-3" aria-label="Ruta de navegación">
+      <ol class="fila fila--centrada" style="list-style: none; padding: 0; margin: 0; gap: var(--espacio-2);">
+        <li><a href="/index.html" class="enlace">Inicio</a></li>
+        <li aria-hidden="true">/</li>
+        <li><a href="/paginas/noticias.html" class="enlace">Noticias</a></li>
+        <li aria-hidden="true">/</li>
+        <li aria-current="page" id="miga-noticia" class="texto-atenuado">Detalle</li>
+      </ol>
+    </nav>
+
+    <div id="cargando-noticia" class="pila pila--centrada margen-b-4">
+      <div class="indicador-cargando" aria-hidden="true"></div>
+      <p class="texto-atenuado">Cargando noticia...</p>
+    </div>
+
+    <article id="articulo-noticia" class="tarjeta articulo-contenedor" style="display: none;">
+      <header class="articulo-encabezado">
+        <div class="fila fila--entre fila--centrada margen-b-2">
+          <div class="fila fila--centrada" style="gap: var(--espacio-2);">
+            <span id="noticia-categoria" class="insignia insignia--primario">Categoría</span>
+            <span id="noticia-destacada" class="insignia insignia--exito" style="display: none;">★ Destacada</span>
+            <span id="noticia-tema-tag" class="insignia insignia--secundario" style="display: none;">Tema</span>
+          </div>
+          <div id="acciones-edicion" style="display: none;">
+            <a id="btn-editar-noticia" href="#" class="btn btn--secundario btn--pequeno">Editar noticia</a>
+          </div>
+        </div>
+
+        <h1 id="noticia-titulo" class="articulo-titulo">Título de la noticia</h1>
+
+        <div class="fila fila--centrada articulo-meta">
+          <time id="noticia-fecha" class="texto-atenuado"></time>
+          <span class="articulo-meta__separador" aria-hidden="true">•</span>
+          <span id="noticia-autor" class="texto-atenuado">Autor institucional</span>
+        </div>
+      </header>
+
+      <div id="noticia-resumen-wrap" class="articulo-lead">
+        <p id="noticia-resumen"></p>
+      </div>
+
+      <div id="noticia-imagen-wrap" class="articulo-portada" style="display: none;">
+        <img id="noticia-imagen" src="" alt="" class="articulo-portada__img">
+      </div>
+
+      <div id="noticia-cuerpo" class="prosa articulo-cuerpo"></div>
+
+      <footer class="articulo-pie margen-t-4">
+        <a href="/paginas/noticias.html" class="btn btn--secundario">← Volver a Noticias</a>
+      </footer>
+    </article>
+  </main>
+  <script type="module" src="/js/modulos/noticia.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+/* publico/css/modulos/prueba-datos.css · Estilos para la prueba de datos */
+.prueba-formulario {
+  max-width: 600px;
+}
+
+.prueba-registros {
+  margin-top: var(--espacio-xl);
+}
+
+.prueba-vacio {
+  padding: var(--espacio-l);
+  text-align: center;
+  color: var(--color-texto-suave);
+  background-color: var(--color-superficie);
+  border: 1px dashed var(--color-borde);
+  border-radius: var(--radio-m);
+}

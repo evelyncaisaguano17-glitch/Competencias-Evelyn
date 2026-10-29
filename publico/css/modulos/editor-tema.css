@@ -1,0 +1,227 @@
+/* publico/css/modulos/editor-tema.css · Estilos para la ficha del tema y glosario */
+
+.editor-tema {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-l);
+  padding-block: var(--espacio-m);
+}
+
+.editor-tema__navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--espacio-s);
+}
+
+.editor-tema__barra-acciones {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-s);
+  flex-wrap: wrap;
+}
+
+.editor-tema__seccion {
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  padding: var(--espacio-m);
+  box-shadow: var(--sombra-1);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-m);
+}
+
+@media (min-width: 640px) {
+  .editor-tema__seccion {
+    padding: var(--espacio-l);
+  }
+}
+
+.editor-tema__seccion-titulo {
+  margin: 0;
+  font-size: var(--tamano-l);
+  font-weight: var(--peso-negrita);
+  color: var(--color-primario);
+  border-bottom: 1px solid var(--color-borde);
+  padding-bottom: var(--espacio-s);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--espacio-s);
+}
+
+/* Grilla de campos del tema */
+.editor-tema__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--espacio-m);
+}
+
+@media (min-width: 640px) {
+  .editor-tema__grid--2col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .editor-tema__grid--3col {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Listas dinámicas (objetivos, ejemplos, errores, preguntas) */
+.lista-dinamica {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-xs);
+}
+
+.item-dinamico {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+}
+
+.item-dinamico input,
+.item-dinamico textarea {
+  flex: 1;
+}
+
+/* Recursos */
+.recursos-lista {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-s);
+}
+
+.tarjeta-recurso {
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+  padding: var(--espacio-s) var(--espacio-m);
+  background-color: var(--color-fondo);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-s);
+}
+
+@media (min-width: 768px) {
+  .tarjeta-recurso {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+
+.tarjeta-recurso__campo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tarjeta-recurso__subida {
+  display: flex;
+  gap: var(--espacio-xs);
+  align-items: center;
+}
+
+/* Resumen con contador y vista previa */
+.resumen-contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-xs);
+}
+
+.resumen-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--tamano-s);
+  color: var(--color-texto-suave);
+  flex-wrap: wrap;
+  gap: var(--espacio-xs);
+}
+
+.resumen-preview {
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+  padding: var(--espacio-m);
+  background-color: var(--color-fondo);
+  min-height: 120px;
+  line-height: var(--interlineado-base);
+}
+
+/* Glosario métricas */
+.glosario-metricas {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-s);
+  flex-wrap: wrap;
+  padding: var(--espacio-s) var(--espacio-m);
+  background-color: var(--color-fondo);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+}
+
+.glosario-tabla-contenedor {
+  overflow-x: auto;
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+}
+
+.contador-alerta {
+  color: var(--color-peligro);
+  font-weight: var(--peso-negrita);
+}
+
+/* Modal de propuestas de IA (Tarea P07.2) */
+.modal-propuestas-ia {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-s);
+}
+
+.modal-propuestas-ia__tabla-contenedor {
+  max-height: 55vh;
+  overflow-y: auto;
+  overflow-x: auto;
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+}
+
+.modal-dialogo:has(.modal-propuestas-ia) {
+  max-width: min(96vw, 1100px);
+  max-height: 92vh;
+}
+
+.fila-propuesta--repetida {
+  background-color: var(--color-superficie-alt);
+}
+
+.fila-propuesta--repetida td {
+  border-bottom: 1px solid var(--color-advertencia);
+}
+
+.tabla--compacta th,
+.tabla--compacta td {
+  padding: var(--espacio-xs) var(--espacio-s);
+}
+
+.tabla--compacta input[type="text"],
+.tabla--compacta textarea {
+  font-size: var(--tamano-s);
+  padding: 4px 8px;
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-s);
+  background-color: var(--color-superficie);
+  color: var(--color-texto);
+}
+
+.tabla--compacta input[type="text"]:focus,
+.tabla--compacta textarea:focus {
+  outline: 2px solid var(--color-primario);
+  border-color: transparent;
+}

@@ -1,0 +1,203 @@
+/* publico/css/modulos/editor-contenidos.css · Estilos para el editor de contenidos */
+
+.editor-contenidos {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-l);
+  padding-block: var(--espacio-m);
+}
+
+.editor-contenidos__cabecera {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-s);
+}
+
+.editor-contenidos__selector-asig {
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+  padding: var(--espacio-m);
+  box-shadow: var(--sombra-1);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-xs);
+}
+
+@media (min-width: 640px) {
+  .editor-contenidos__selector-asig {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--espacio-m);
+  }
+
+  .editor-contenidos__selector-asig label {
+    white-space: nowrap;
+    font-weight: var(--peso-medio);
+  }
+
+  .editor-contenidos__selector-asig select {
+    flex: 1;
+  }
+}
+
+.editor-contenidos__layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--espacio-l);
+}
+
+@media (min-width: 840px) {
+  .editor-contenidos__layout {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}
+
+.editor-panel {
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  padding: var(--espacio-m);
+  box-shadow: var(--sombra-1);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-m);
+}
+
+.editor-panel__cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--color-borde);
+  padding-bottom: var(--espacio-s);
+  gap: var(--espacio-s);
+  flex-wrap: wrap;
+}
+
+.editor-panel__titulo {
+  margin: 0;
+  font-size: var(--tamano-m);
+  font-weight: var(--peso-negrita);
+  color: var(--color-primario);
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+}
+
+.editor-lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-s);
+}
+
+.editor-item {
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+  background-color: var(--color-superficie);
+  padding: var(--espacio-s) var(--espacio-m);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-s);
+  transition: border-color var(--transicion-rapida), box-shadow var(--transicion-rapida);
+}
+
+@media (min-width: 480px) {
+  .editor-item {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.editor-item--activo {
+  border-color: var(--color-primario);
+  box-shadow: 0 0 0 2px rgba(0, 46, 69, 0.15);
+  background-color: var(--color-fondo);
+}
+
+.editor-item__cuerpo {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-s);
+  flex: 1;
+  min-width: 0;
+}
+
+.editor-item__orden-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radio-circulo);
+  background-color: var(--color-fondo);
+  border: 1px solid var(--color-borde);
+  font-weight: var(--peso-negrita);
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+  flex-shrink: 0;
+}
+
+.editor-item__titulo-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: var(--color-texto);
+  font-family: inherit;
+  font-size: var(--tamano-base);
+  font-weight: var(--peso-medio);
+  text-align: left;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.editor-item__titulo-btn:hover,
+.editor-item__titulo-btn:focus-visible {
+  color: var(--color-primario);
+  text-decoration: underline;
+  outline: none;
+}
+
+.editor-item__detalles {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.editor-item__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+}
+
+.editor-item__acciones {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+  flex-wrap: wrap;
+}
+
+.btn-orden {
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+
+.editor-vacio {
+  text-align: center;
+  padding: var(--espacio-xl) var(--espacio-m);
+  border: 1px dashed var(--color-borde);
+  border-radius: var(--radio-m);
+  color: var(--color-texto-suave);
+}

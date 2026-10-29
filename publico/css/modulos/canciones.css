@@ -1,0 +1,303 @@
+/* publico/css/modulos/canciones.css · Reproductor musical espacioso y catálogo accesible */
+
+.canciones-encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.canciones-encabezado h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #0b2238;
+  margin: 0 0 0.35rem 0;
+}
+
+.filtros-canciones {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  align-items: end;
+  padding: 1.5rem 1.75rem;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 680px) {
+  .filtros-canciones {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+/* Reproductor de Audio */
+.reproductor-card {
+  padding: 2.25rem 2rem;
+  border: 1px solid #bfdbfe;
+  background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%);
+  box-shadow: 0 10px 28px rgba(37, 99, 235, 0.08);
+  border-radius: 20px;
+  margin-bottom: 3rem;
+}
+
+.reproductor-titulo {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0.5rem 0 0.25rem 0;
+}
+
+.reproductor-btn-play {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  padding: 0;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
+  transition: transform 0.2s, background-color 0.2s;
+  cursor: pointer;
+}
+
+.reproductor-btn-play:hover {
+  background-color: #1d4ed8;
+  transform: scale(1.06);
+}
+
+.reproductor-slider {
+  flex: 1;
+  cursor: pointer;
+  accent-color: #2563eb;
+  height: 8px;
+  border-radius: 9999px;
+  background-color: #e2e8f0;
+}
+
+.reproductor-slider-volumen {
+  width: 100px;
+  cursor: pointer;
+  accent-color: #2563eb;
+  height: 6px;
+  border-radius: 9999px;
+}
+
+.texto-mono {
+  font-family: monospace;
+  font-size: 0.9rem;
+  color: #475569;
+  font-weight: 600;
+}
+
+/* Visor de Letras y LRC */
+.panel-letra {
+  border-top: 1px solid #dbeafe;
+  padding-top: 1.5rem;
+}
+
+.letras-visor {
+  max-height: 320px;
+  overflow-y: auto;
+  padding: 2rem 1.5rem;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  scroll-behavior: smooth;
+  text-align: center;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.02);
+}
+
+.linea-lrc {
+  margin: 0.75rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  transition: all 0.25s ease;
+  color: #64748b;
+  font-size: 1.05rem;
+}
+
+.linea-lrc--activa {
+  color: #2563eb;
+  font-weight: 800;
+  font-size: 1.3rem;
+  background-color: #eff6ff;
+  transform: scale(1.03);
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.12);
+}
+
+/* Lista de Canciones estilo moderno (Track card) */
+.tarjeta-cancion {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  border: 1px solid #1e2e42;
+  border-radius: 14px;
+  background-color: #0c1824;
+  color: #f1f5f9;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  transition: all 0.25s ease;
+  gap: 1.25rem;
+}
+
+.tarjeta-cancion:hover {
+  border-color: #38bdf8;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.tarjeta-cancion--activa {
+  border-color: #38bdf8;
+  background: linear-gradient(135deg, #0e2238 0%, #081420 100%);
+  box-shadow: 0 0 18px rgba(56, 189, 248, 0.25);
+}
+
+.cancion-cover-wrap {
+  position: relative;
+  width: 78px;
+  height: 78px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-color: #020617;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.cancion-cover-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.cancion-duracion-badge {
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #ffffff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  backdrop-filter: blur(2px);
+}
+
+.cancion-cuerpo {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cancion-cabecera-linea {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.cancion-titulo {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.25;
+}
+
+.cancion-tag-version {
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: #94a3b8;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.cancion-asig-tag {
+  font-size: 0.72rem;
+  background: rgba(255, 255, 255, 0.08);
+  color: #cbd5e1;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.cancion-estilo-desc {
+  color: #94a3b8;
+  font-size: 0.85rem;
+  margin: 0 0 6px 0;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.cancion-acciones-barra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.cancion-reacciones {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-cancion-icon {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #cbd5e1;
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.2s;
+}
+
+.btn-cancion-icon:hover {
+  background: rgba(255, 255, 255, 0.14);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.btn-cancion-icon--activo {
+  background: rgba(56, 189, 248, 0.2);
+  color: #38bdf8;
+  border-color: #38bdf8;
+}
+
+.cancion-acciones-derecha {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: auto;
+}
+
+.cancion-acciones-derecha .btn--fantasma {
+  color: #94a3b8;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.cancion-acciones-derecha .btn--fantasma:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}

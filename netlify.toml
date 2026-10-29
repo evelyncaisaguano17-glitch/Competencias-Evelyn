@@ -1,0 +1,13 @@
+# netlify.toml · Configuración para despliegue en Netlify
+[build]
+  publish = "publico"
+
+# NOTA: La plataforma cuenta con un backend Node.js (Express) en servidor/server.js.
+# Si publicas el frontend estático en Netlify, debes desplegar el backend en un servicio
+# como Render.com o Railway y descomentar la siguiente redirección para conectar las llamadas /api:
+#
+# [[redirects]]
+#   from = "/api/*"
+#   to = "https://tu-backend-en-render.onrender.com/api/:splat"
+#   status = 200
+#   force = true

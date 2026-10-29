@@ -1,0 +1,313 @@
+/* publico/css/modulos/crucigrama.css · Estilos del módulo Crucigrama */
+
+.crucigrama-pagina {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-m);
+  padding-block: var(--espacio-m);
+}
+
+/* Encabezado y barra de estado */
+.crucigrama-encabezado {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--espacio-s);
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  padding: var(--espacio-m);
+  box-shadow: var(--sombra-1);
+}
+
+.crucigrama-titulo-grupo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-xs);
+}
+
+.crucigrama-titulo-grupo h1 {
+  margin: 0;
+  font-size: var(--tamano-xl);
+  color: var(--color-primario);
+}
+
+.crucigrama-tema-nombre {
+  font-size: var(--tamano-s);
+  color: var(--color-texto-suave);
+}
+
+.crucigrama-estadisticas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--espacio-s);
+}
+
+.crucigrama-stat {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+  padding: var(--espacio-xs) var(--espacio-s);
+  background-color: var(--color-fondo);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+  font-size: var(--tamano-s);
+  font-weight: var(--peso-medio);
+}
+
+.crucigrama-stat strong {
+  color: var(--color-primario);
+}
+
+/* Barra de herramientas / acciones */
+.crucigrama-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--espacio-s);
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+  padding: var(--espacio-s) var(--espacio-m);
+}
+
+.crucigrama-toolbar__acciones {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--espacio-s);
+}
+
+.crucigrama-toolbar__ayuda {
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+}
+
+/* Contenedor principal: Grilla a la izquierda, Pistas a la derecha */
+.crucigrama-cuerpo {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--espacio-l);
+  align-items: start;
+}
+
+@media (min-width: 960px) {
+  .crucigrama-cuerpo {
+    grid-template-columns: 1fr 340px;
+  }
+}
+
+/* Área del tablero */
+.crucigrama-tablero-area {
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  padding: var(--espacio-m);
+  box-shadow: var(--sombra-1);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-m);
+  overflow: hidden;
+}
+
+.crucigrama-scroll {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 70vh;
+  padding: var(--espacio-s);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+  background-color: var(--color-fondo);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Grilla del crucigrama */
+.crucigrama-grilla {
+  display: grid;
+  gap: 2px;
+  background-color: var(--color-borde);
+  padding: 2px;
+  border-radius: var(--radio-s);
+  box-shadow: var(--sombra-1);
+  user-select: none;
+}
+
+/* Celdas individuales */
+.crucigrama-celda {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  background-color: var(--color-superficie);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color var(--transicion-rapida), outline var(--transicion-rapida);
+}
+
+@media (min-width: 640px) {
+  .crucigrama-celda {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.crucigrama-celda--bloque {
+  background-color: var(--color-primario);
+  opacity: 0.95;
+}
+
+.crucigrama-celda--palabra-activa {
+  background-color: var(--color-info-suave);
+}
+
+.crucigrama-celda--foco {
+  outline: 3px solid var(--color-acento);
+  outline-offset: -2px;
+  z-index: 2;
+  background-color: var(--color-superficie);
+}
+
+.crucigrama-celda--correcta {
+  background-color: var(--color-exito-suave);
+  color: var(--color-exito);
+}
+
+.crucigrama-celda--correcta .celda-input {
+  color: var(--color-exito);
+}
+
+.crucigrama-celda--revelada {
+  border-bottom: 3px solid var(--color-advertencia);
+}
+
+.crucigrama-celda--error {
+  animation: crucigrama-shake 0.4s ease-in-out;
+  background-color: #fee2e2;
+}
+
+@keyframes crucigrama-shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-4px); }
+  40%, 80% { transform: translateX(4px); }
+}
+
+/* Número de la celda */
+.celda-numero {
+  position: absolute;
+  top: 1px;
+  left: 2px;
+  font-size: 9px;
+  font-weight: var(--peso-seminegrita);
+  color: var(--color-texto-suave);
+  line-height: 1;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Input dentro de la celda */
+.celda-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: transparent;
+  text-align: center;
+  font-size: var(--tamano-m);
+  font-weight: var(--peso-negrita);
+  font-family: var(--fuente-base);
+  color: var(--color-texto);
+  text-transform: uppercase;
+  caret-color: transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.celda-input:focus {
+  outline: none;
+}
+
+/* Área de pistas (Horizontales y Verticales) */
+.crucigrama-pistas-area {
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  padding: var(--espacio-m);
+  box-shadow: var(--sombra-1);
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-m);
+  max-height: 75vh;
+  overflow-y: auto;
+}
+
+.crucigrama-seccion-pistas {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-s);
+}
+
+.crucigrama-seccion-pistas h2 {
+  margin: 0;
+  font-size: var(--tamano-m);
+  color: var(--color-primario);
+  border-bottom: 1px solid var(--color-borde);
+  padding-bottom: var(--espacio-xs);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.crucigrama-lista-pistas {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-xs);
+}
+
+.pista-item {
+  padding: var(--espacio-xs) var(--espacio-s);
+  border-radius: var(--radio-s);
+  border: 1px solid transparent;
+  font-size: var(--tamano-s);
+  line-height: var(--interlineado-base);
+  cursor: pointer;
+  transition: background-color var(--transicion-rapida), border-color var(--transicion-rapida);
+  display: flex;
+  align-items: baseline;
+  gap: var(--espacio-xs);
+}
+
+.pista-item:hover {
+  background-color: var(--color-superficie-alt);
+}
+
+.pista-item--activa {
+  background-color: var(--color-info-suave);
+  border-color: var(--color-info);
+  font-weight: var(--peso-seminegrita);
+}
+
+.pista-item--resuelta {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+.pista-item--resuelta .pista-check {
+  color: var(--color-exito);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pista-item strong {
+  color: var(--color-primario);
+  min-width: 22px;
+}

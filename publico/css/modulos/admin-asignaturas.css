@@ -1,0 +1,55 @@
+/* publico/css/modulos/admin-asignaturas.css · Estilos para administración de asignaturas */
+
+.admin-asig-contenedor {
+  gap: var(--espacio-l);
+  padding-block: var(--espacio-m);
+}
+
+.admin-asig-cabecera {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--espacio-m);
+}
+
+.admin-asig-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--espacio-l);
+}
+
+.tarjeta-asignatura {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-m);
+  padding: var(--espacio-l);
+  background-color: var(--color-superficie);
+  transition: transform var(--transicion-normal), box-shadow var(--transicion-normal);
+}
+
+.tarjeta-asignatura:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--sombra-m);
+}
+
+.tarjeta-asignatura__cuerpo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-s);
+}
+
+.tarjeta-asignatura__nivel {
+  align-self: flex-start;
+}
+
+.tarjeta-asignatura__acciones {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--espacio-s);
+  margin-top: var(--espacio-m);
+  padding-top: var(--espacio-s);
+  border-top: 1px solid var(--color-borde);
+}

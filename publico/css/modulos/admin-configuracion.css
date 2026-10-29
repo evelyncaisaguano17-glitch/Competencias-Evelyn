@@ -1,0 +1,98 @@
+/* publico/css/modulos/admin-configuracion.css · Estilos para panel de configuración de IA */
+.config-ia-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--espacio-lg);
+  margin-top: var(--espacio-md);
+}
+
+@media (min-width: 768px) {
+  .config-ia-grid {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.config-ia-card {
+  background: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-lg);
+  padding: var(--espacio-lg);
+  box-shadow: var(--sombra-sm);
+}
+
+.config-ia-clave-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.config-ia-clave-wrapper input {
+  padding-right: 3rem;
+  width: 100%;
+}
+
+.btn-toggle-clave {
+  position: absolute;
+  right: var(--espacio-sm);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: var(--espacio-xs);
+  font-size: var(--tamano-fuente-base);
+  color: var(--color-texto-suave);
+  border-radius: var(--radio-sm);
+}
+
+.btn-toggle-clave:focus-visible {
+  outline: 2px solid var(--color-primario);
+}
+
+.chips-modelos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espacio-xs);
+  margin-top: var(--espacio-xs);
+}
+
+.chip-modelo {
+  font-size: var(--tamano-fuente-sm);
+  padding: var(--espacio-xs) var(--espacio-sm);
+  border-radius: var(--radio-sm);
+  border: 1px solid var(--color-borde);
+  background: var(--color-fondo);
+  color: var(--color-texto);
+  cursor: pointer;
+  transition: all var(--transicion-rapida);
+}
+
+.chip-modelo:hover {
+  border-color: var(--color-primario);
+  background: var(--color-primario-fondo);
+  color: var(--color-primario);
+}
+
+.estado-conexion {
+  padding: var(--espacio-md);
+  border-radius: var(--radio-md);
+  margin-top: var(--espacio-md);
+  font-size: var(--tamano-fuente-sm);
+  line-height: var(--altura-linea-md);
+}
+
+.estado-conexion--ok {
+  background: var(--color-exito-fondo);
+  color: var(--color-exito);
+  border: 1px solid var(--color-exito);
+}
+
+.estado-conexion--error {
+  background: var(--color-error-fondo);
+  color: var(--color-error);
+  border: 1px solid var(--color-error);
+}
+
+.estado-conexion--aviso {
+  background: var(--color-aviso-fondo);
+  color: var(--color-aviso);
+  border: 1px solid var(--color-aviso);
+}

@@ -1,0 +1,19 @@
+/* publico/css/modulos/editor-cancion.css */
+.editor-letras-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--espacio-4);
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .editor-letras-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.fuente-mono {
+  font-family: monospace;
+  font-size: var(--fuente-pequena);
+  white-space: pre;
+}

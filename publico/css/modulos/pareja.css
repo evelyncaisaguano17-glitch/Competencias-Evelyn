@@ -1,0 +1,190 @@
+/* publico/css/modulos/pareja.css · Estilos para el juego Encuentra la pareja */
+
+.pareja-contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-l);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.pareja-cabecera {
+  margin-bottom: var(--espacio-m);
+}
+
+.pareja-barra-controles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--espacio-m);
+  padding: var(--espacio-m);
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  box-shadow: var(--sombra-s);
+}
+
+.pareja-estadisticas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espacio-m);
+  align-items: center;
+}
+
+.pareja-estadistica {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+  font-size: var(--tamano-s);
+  color: var(--color-texto);
+}
+
+.pareja-estadistica strong {
+  color: var(--color-primario);
+  font-size: var(--tamano-m);
+}
+
+/* ==========================================================================
+   Cuadrícula adaptable de tarjetas
+   ========================================================================== */
+.pareja-cuadricula {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: var(--espacio-m);
+  perspective: 1000px;
+}
+
+/* ==========================================================================
+   Tarjeta con giro 3D (accesible como botón)
+   ========================================================================== */
+.tarjeta-pareja {
+  position: relative;
+  width: 100%;
+  min-height: 140px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  font-family: inherit;
+  perspective: 1000px;
+}
+
+.tarjeta-pareja:focus-visible .tarjeta-pareja__interno {
+  outline: 3px solid var(--color-foco);
+  outline-offset: 2px;
+}
+
+.tarjeta-pareja__interno {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform var(--transicion);
+  border-radius: var(--radio-l);
+}
+
+.tarjeta-pareja.volteada .tarjeta-pareja__interno,
+.tarjeta-pareja.emparejada .tarjeta-pareja__interno {
+  transform: rotateY(180deg);
+}
+
+.tarjeta-pareja__dorso,
+.tarjeta-pareja__frente {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: var(--radio-l);
+  border: 2px solid var(--color-borde);
+  box-shadow: var(--sombra-s);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--espacio-s);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.tarjeta-pareja__dorso {
+  background: linear-gradient(135deg, var(--color-primario), var(--color-secundario));
+  color: var(--color-texto-inverso);
+  font-size: var(--tamano-2xl);
+  user-select: none;
+}
+
+.tarjeta-pareja__dorso-icono {
+  line-height: 1;
+}
+
+.tarjeta-pareja__frente {
+  background-color: var(--color-superficie);
+  color: var(--color-texto);
+  transform: rotateY(180deg);
+  overflow-y: auto;
+  gap: var(--espacio-xs);
+}
+
+.tarjeta-pareja__tipo {
+  font-size: var(--tamano-xs);
+  font-weight: var(--peso-negrita);
+  text-transform: uppercase;
+  color: var(--color-texto-suave);
+  letter-spacing: 0.5px;
+}
+
+.tarjeta-pareja__texto {
+  font-size: var(--tamano-s);
+  line-height: var(--interlineado-apretado);
+  font-weight: var(--peso-medio);
+  word-break: break-word;
+}
+
+.tarjeta-pareja.emparejada .tarjeta-pareja__frente {
+  border-color: var(--color-exito);
+  background-color: var(--color-superficie-alt);
+}
+
+.tarjeta-pareja.emparejada .tarjeta-pareja__tipo {
+  color: var(--color-exito);
+}
+
+.tarjeta-pareja:disabled {
+  cursor: default;
+}
+
+/* ==========================================================================
+   Sin animación con prefers-reduced-motion
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  .tarjeta-pareja__interno {
+    transition: none !important;
+  }
+}
+
+/* ==========================================================================
+   Panel de retroalimentación en pantalla
+   ========================================================================== */
+.pareja-retro-contenedor {
+  margin-top: var(--espacio-s);
+}
+
+@media (max-width: 480px) {
+  .pareja-cuadricula {
+    grid-template-columns: repeat(auto-fill, minmax(105px, 1fr));
+    gap: var(--espacio-s);
+  }
+
+  .tarjeta-pareja {
+    min-height: 120px;
+  }
+
+  .tarjeta-pareja__texto {
+    font-size: var(--tamano-xs);
+  }
+}

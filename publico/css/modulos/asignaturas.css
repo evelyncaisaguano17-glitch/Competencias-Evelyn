@@ -1,0 +1,108 @@
+/* publico/css/modulos/asignaturas.css · Estilos para Mis Asignaturas */
+
+.seccion-mis-asignaturas {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-l);
+  padding-block: var(--espacio-m);
+}
+
+.mis-asignaturas__cabecera {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-xs);
+}
+
+.tarjetas-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--espacio-l);
+}
+
+@media (min-width: 640px) {
+  .tarjetas-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .tarjetas-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.tarjeta-asig {
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  box-shadow: var(--sombra-1);
+  padding: var(--espacio-l);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--espacio-m);
+  transition: transform var(--transicion-rapida), box-shadow var(--transicion-rapida);
+}
+
+.tarjeta-asig:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--sombra-2);
+}
+
+.tarjeta-asig__cuerpo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-s);
+}
+
+.tarjeta-asig__nivel {
+  align-self: flex-start;
+}
+
+.tarjeta-asig h3 {
+  margin: 0;
+  font-size: var(--tamano-l);
+  color: var(--color-primario);
+}
+
+.tarjeta-asig p {
+  margin: 0;
+  color: var(--color-texto-suave);
+  line-height: var(--interlineado-base);
+  font-size: var(--tamano-s);
+}
+
+/* Barra de progreso de avance */
+.contenedor-avance {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contenedor-avance__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--tamano-xs);
+  color: var(--color-texto-suave);
+}
+
+.barra-avance {
+  width: 100%;
+  height: 10px;
+  background-color: var(--color-fondo);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-circulo);
+  overflow: hidden;
+}
+
+.barra-avance__relleno {
+  height: 100%;
+  background-color: var(--color-primario);
+  border-radius: var(--radio-circulo);
+  transition: width 0.4s ease;
+}
+
+.barra-avance__relleno--completo {
+  background-color: var(--color-exito);
+}

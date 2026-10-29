@@ -1,0 +1,125 @@
+/* publico/css/tokens.css · Variables de diseño del ecosistema educativo basadas en UNEMI Design System */
+:root {
+  /* 1. Colores institucionales y semánticos (WCAG AA mínimo 4.5:1) */
+  --color-primario: #002E45;
+  --color-primario-oscuro: #1C3247;
+  --color-secundario: #264763;
+  --color-acento: #FF6900;
+
+  --color-exito: #15803d;
+  --color-advertencia: #d25700;
+  --color-error: #b91c1c;
+  --color-info: #1470A8;
+
+  --color-fondo: #F5F7F8;
+  --color-superficie: #FFFFFF;
+  --color-superficie-alt: #EEF3F6; /* PROVISIONAL */
+  --color-borde: #DFE7EC;
+
+  --color-texto: #182D3E;
+  --color-texto-suave: #627586;
+  --color-texto-inverso: #FFFFFF;
+  --color-foco: #1470A8;
+
+  /* Alias directos de color según contrato P00.3 */
+  --primario: var(--color-primario);
+  --primario-oscuro: var(--color-primario-oscuro);
+  --secundario: var(--color-secundario);
+  --acento: var(--color-acento);
+  --exito: var(--color-exito);
+  --advertencia: var(--color-advertencia);
+  --error: var(--color-error);
+  --info: var(--color-info);
+  --fondo: var(--color-fondo);
+  --superficie: var(--color-superficie);
+  --borde: var(--color-borde);
+  --texto: var(--color-texto);
+  --texto-suave: var(--color-texto-suave);
+  --texto-inverso: var(--color-texto-inverso);
+
+  /* 2. Tipografía */
+  --fuente-base: 'Poppins', Arial, sans-serif;
+  --fuente-titulos: 'Poppins', Arial, sans-serif;
+
+  --tamano-xs: 0.75rem;    /* 12px */
+  --tamano-s: 0.875rem;   /* 14px */
+  --tamano-m: 1rem;       /* 16px */
+  --tamano-l: 1.125rem;   /* 18px */
+  --tamano-xl: 1.5rem;    /* 24px */
+  --tamano-2xl: 2rem;     /* 32px */
+  --tamano-3xl: 2.5rem;   /* 40px */
+
+  --peso-regular: 400;
+  --peso-medio: 500;
+  --peso-seminegrita: 600;
+  --peso-negrita: 700;
+  --peso-extranegrita: 800;
+
+  --interlineado-apretado: 1.25;
+  --interlineado-base: 1.6;
+  --interlineado-amplio: 1.8;
+
+  /* 3. Espaciados (escala de 4px) */
+  --espacio-xs: 0.25rem;  /* 4px */
+  --espacio-s: 0.5rem;   /* 8px */
+  --espacio-m: 1rem;     /* 16px */
+  --espacio-l: 1.5rem;   /* 24px */
+  --espacio-xl: 2rem;    /* 32px */
+  --espacio-2xl: 3rem;   /* 48px */
+
+  /* Alias de espaciado */
+  --espaciado-xs: var(--espacio-xs);
+  --espaciado-s: var(--espacio-s);
+  --espaciado-m: var(--espacio-m);
+  --espaciado-l: var(--espacio-l);
+  --espaciado-xl: var(--espacio-xl);
+  --espaciado-2xl: var(--espacio-2xl);
+
+  /* 4. Radios */
+  --radio-s: 4px;
+  --radio-m: 8px;
+  --radio-l: 12px;
+  --radio-completo: 9999px;
+
+  /* 5. Sombras */
+  --sombra-1: 0 2px 8px rgba(0, 46, 69, 0.06);
+  --sombra-2: 0 8px 20px rgba(0, 46, 69, 0.10);
+  --sombra-3: 0 16px 36px rgba(0, 46, 69, 0.14);
+
+  /* 6. Transición y dimensiones */
+  --transicion: 0.2s ease;
+  --ancho-maximo: 1360px;
+
+  /* 7. Alias de compatibilidad y escalas complementarias */
+  --espacio-1: 0.25rem;
+  --espacio-2: 0.5rem;
+  --espacio-3: 0.75rem;
+  --espacio-4: 1rem;
+  --espacio-5: 1.5rem;
+  --espacio-6: 2rem;
+  --espacio-8: 3rem;
+
+  --fuente-pequena: var(--tamano-s);
+  --fuente-base: var(--tamano-m);
+  --fuente-mediana: var(--tamano-l);
+  --fuente-grande: var(--tamano-xl);
+  --fuente-extra-grande: var(--tamano-2xl);
+
+  --radio-sm: var(--radio-s);
+  --radio-md: var(--radio-m);
+  --radio-lg: var(--radio-l);
+  --radio-xl: 16px;
+
+  --sombra-sm: var(--sombra-1);
+  --sombra-md: var(--sombra-2);
+  --sombra-lg: var(--sombra-3);
+
+  --color-superficie-variante: #EEF3F6;
+  --color-peligro: var(--color-error);
+  --color-exito-suave: #F0FDF4;
+  --color-advertencia-suave: #FFFBEB;
+  --color-info-suave: #F0F9FF;
+  --transicion-rapida: 0.15s ease;
+  --transicion-normal: 0.25s ease;
+  --interlineado-relajado: 1.6;
+}

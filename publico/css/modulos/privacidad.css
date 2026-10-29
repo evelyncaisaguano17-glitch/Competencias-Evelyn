@@ -1,0 +1,29 @@
+/* publico/css/modulos/privacidad.css · Estilos para el aviso de privacidad */
+.privacidad-tarjeta {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: var(--espacio-xl);
+}
+
+.privacidad-seccion {
+  margin-bottom: var(--espacio-l);
+}
+
+.privacidad-seccion h2 {
+  font-size: var(--tamano-l);
+  color: var(--color-primario);
+  margin-bottom: var(--espacio-s);
+}
+
+.privacidad-seccion p,
+.privacidad-seccion ul {
+  font-size: var(--tamano-s);
+  line-height: var(--interlineado-base);
+  color: var(--color-texto);
+}
+
+.privacidad-seccion ul {
+  padding-left: var(--espacio-l);
+  margin-top: var(--espacio-xs);
+  margin-bottom: var(--espacio-s);
+}

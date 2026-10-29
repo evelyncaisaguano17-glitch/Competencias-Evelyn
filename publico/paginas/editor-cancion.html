@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Editor de canción · Ecosistema Educativo</title>
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/componentes.css">
+  <link rel="stylesheet" href="/css/modulos/editor-cancion.css">
+</head>
+<body>
+  <div id="plantilla"></div>
+  <main id="contenido" class="contenedor">
+    <div class="fila fila--entre fila--centrada margen-b-4">
+      <div>
+        <a href="/paginas/canciones.html" class="enlace">← Volver a Canciones</a>
+        <h2 id="editor-titulo-pagina" class="margen-t-1">Nueva canción educativa</h2>
+      </div>
+      <div class="fila fila--centrada">
+        <button type="button" id="btn-guardar-cancion" class="btn btn--primario">Guardar canción</button>
+      </div>
+    </div>
+
+    <form id="form-cancion" class="pila tarjeta" novalidate>
+      <div class="campo">
+        <label for="cancion-titulo">Título de la canción <span aria-hidden="true">*</span></label>
+        <input type="text" id="cancion-titulo" name="titulo" required placeholder="Ej. El ciclo del agua en melodía">
+        <span class="campo__error" id="error-titulo"></span>
+      </div>
+
+      <div class="campo">
+        <label for="cancion-tema">Tema curricular relacionado <span aria-hidden="true">*</span></label>
+        <select id="cancion-tema" name="temaId" required>
+          <option value="">Selecciona un tema...</option>
+        </select>
+        <span class="campo__error" id="error-tema"></span>
+      </div>
+
+      <div class="campo">
+        <label for="cancion-audio">Archivo de audio MP3 <span aria-hidden="true">*</span></label>
+        <div class="fila fila--centrada" style="gap: var(--espacio-2);">
+          <input type="text" id="cancion-audio" name="audio" required placeholder="URL del audio o sube un archivo MP3">
+          <label for="input-subir-mp3" class="btn btn--secundario" style="margin: 0; cursor: pointer;">
+            Subir MP3
+          </label>
+          <input type="file" id="input-subir-mp3" accept="audio/mpeg,audio/mp3,.mp3" style="display: none;">
+        </div>
+        <span class="campo__error" id="error-audio"></span>
+        <div id="preview-audio-container" class="margen-t-2" style="display: none;">
+          <audio id="preview-audio" controls style="width: 100%; max-width: 480px;"></audio>
+        </div>
+      </div>
+
+      <div class="fila fila--adaptable">
+        <div class="campo campo--flexible">
+          <label for="cancion-autoria">Autoría <span aria-hidden="true">*</span></label>
+          <input type="text" id="cancion-autoria" name="autoria" required placeholder="Ej. Prof. Carlos Mendieta / Generada con apoyo docente">
+          <span class="campo__error" id="error-autoria"></span>
+        </div>
+
+        <div class="campo campo--flexible">
+          <label for="cancion-licencia">Licencia <span aria-hidden="true">*</span></label>
+          <select id="cancion-licencia" name="licencia" required>
+            <option value="Propia">Propia (Derechos reservados)</option>
+            <option value="CC BY">Creative Commons Reconocimiento (CC BY)</option>
+            <option value="CC BY-SA">Creative Commons CompartirIgual (CC BY-SA)</option>
+            <option value="Otra">Otra licencia...</option>
+          </select>
+          <span class="campo__error" id="error-licencia"></span>
+        </div>
+      </div>
+
+      <div class="campo" id="campo-licencia-otra" style="display: none;">
+        <label for="cancion-licencia-otra">Especificación de licencia <span aria-hidden="true">*</span></label>
+        <input type="text" id="cancion-licencia-otra" name="licenciaOtra" placeholder="Detalle de los términos de la licencia">
+        <span class="campo__error" id="error-licencia-otra"></span>
+      </div>
+
+      <div class="editor-letras-grid">
+        <div class="campo">
+          <label for="cancion-letra">
+            Letra de la canción
+            <small class="texto-atenuado">(texto completo en verso/estrofas)</small>
+          </label>
+          <textarea id="cancion-letra" name="letra" rows="12" placeholder="Escribe o pega aquí la letra completa de la canción..."></textarea>
+        </div>
+
+        <div class="campo">
+          <label for="cancion-lrc">
+            Letra sincronizada LRC <small class="texto-atenuado">(opcional)</small>
+          </label>
+          <textarea id="cancion-lrc" name="lrc" rows="12" class="fuente-mono" placeholder="[00:05.20] Primera estrofa de la canción&#10;[00:12.50] Segunda línea sincronizada&#10;[00:20.10] Coro principal..."></textarea>
+          <small class="texto-atenuado">Formato estándar LRC: [mm:ss.xx] Letra cantada en ese instante.</small>
+        </div>
+      </div>
+    </form>
+  </main>
+  <script type="module" src="/js/modulos/editor-cancion.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+/* publico/css/modulos/ingreso.css · Estilos para formulario de inicio de sesión */
+.ingreso-tarjeta {
+  max-width: 440px;
+  margin: var(--espacio-xl) auto;
+  padding: var(--espacio-xl);
+}
+
+.ingreso-encabezado {
+  text-align: center;
+  margin-bottom: var(--espacio-l);
+}
+
+.ingreso-encabezado h2 {
+  font-size: var(--tamano-xl);
+  color: var(--color-primario);
+  margin-bottom: var(--espacio-xs);
+}
+
+.ingreso-enlaces {
+  margin-top: var(--espacio-m);
+  text-align: center;
+  font-size: var(--tamano-s);
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Canciones educativas · Ecosistema Educativo</title>
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/componentes.css">
+  <link rel="stylesheet" href="/css/modulos/canciones.css">
+</head>
+<body>
+  <div id="plantilla"></div>
+  <main id="contenido" class="contenedor">
+    <header class="fila fila--entre fila--centrada margen-b-4 canciones-encabezado">
+      <div>
+        <h2>Canciones Educativas</h2>
+        <p class="texto-atenuado">Refuerza tus aprendizajes mediante música, letras temáticas y karaoke sincronizado.</p>
+      </div>
+      <div id="acciones-docente" style="display: none;">
+        <a href="/paginas/editor-cancion.html" class="btn btn--primario">+ Nueva canción</a>
+      </div>
+    </header>
+
+    <!-- Filtros de asignatura y tema -->
+    <section class="tarjeta margen-b-4" aria-label="Filtros de búsqueda de canciones">
+      <div class="filtros-canciones">
+        <div class="campo" style="margin: 0;">
+          <label for="filtro-asignatura">Asignatura</label>
+          <select id="filtro-asignatura">
+            <option value="">Todas mis asignaturas</option>
+          </select>
+        </div>
+        <div class="campo" style="margin: 0;">
+          <label for="filtro-tema">Tema curricular</label>
+          <select id="filtro-tema">
+            <option value="">Todos los temas</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reproductor Principal y Panel de Letras -->
+    <section id="seccion-reproductor" class="tarjeta reproductor-card margen-b-4" aria-label="Reproductor de audio" style="display: none;">
+      <audio id="audio-elemento" preload="metadata"></audio>
+      
+      <div class="reproductor-info margen-b-3">
+        <div class="fila fila--entre fila--centrada">
+          <div>
+            <span id="player-etiqueta-tema" class="insignia insignia--primario margen-b-1">Tema</span>
+            <h3 id="player-titulo" class="reproductor-titulo">Selecciona una canción</h3>
+            <p id="player-autoria" class="texto-atenuado texto-pequeno">Autoría</p>
+          </div>
+          <span id="player-licencia" class="insignia insignia--secundario">Licencia</span>
+        </div>
+      </div>
+
+      <!-- Controles del reproductor -->
+      <div class="reproductor-controles pila">
+        <div class="fila fila--centrada reproductor-barra-tiempo" style="gap: var(--espacio-2);">
+          <span id="tiempo-actual" class="texto-mono texto-pequeno">00:00</span>
+          <input type="range" id="barra-progreso" min="0" max="100" value="0" step="0.1" aria-label="Barra de progreso de reproducción" class="reproductor-slider">
+          <span id="tiempo-total" class="texto-mono texto-pequeno">00:00</span>
+        </div>
+
+        <div class="fila fila--entre fila--centrada margen-t-2">
+          <div class="fila fila--centrada" style="gap: var(--espacio-2);">
+            <button type="button" id="btn-play-pause" class="btn btn--primario reproductor-btn-play" aria-label="Reproducir">
+              ▶
+            </button>
+            <button type="button" id="btn-reiniciar" class="btn btn--secundario btn--pequeno" aria-label="Reiniciar canción" title="Volver al inicio">
+              ⏮
+            </button>
+          </div>
+
+          <div class="fila fila--centrada reproductor-volumen" style="gap: var(--espacio-2);">
+            <button type="button" id="btn-mute" class="btn btn--fantasma btn--pequeno" aria-label="Silenciar audio">🔊</button>
+            <input type="range" id="barra-volumen" min="0" max="1" step="0.05" value="1" aria-label="Control de volumen" class="reproductor-slider-volumen">
+          </div>
+        </div>
+      </div>
+
+      <!-- Panel de Letra / LRC -->
+      <div class="panel-letra margen-t-4">
+        <div class="fila fila--entre fila--centrada margen-b-2">
+          <h4 class="margen-0">Letra de la canción</h4>
+          <span id="badge-tipo-letra" class="insignia insignia--exito" style="display: none;">Sincronizada (LRC)</span>
+        </div>
+        <div id="contenedor-letras" class="letras-visor" tabindex="0" aria-label="Letra de la canción">
+          <p class="texto-atenuado">Cargando letra...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lista de Canciones -->
+    <section aria-label="Lista de canciones disponibles">
+      <div id="lista-canciones" class="pila" aria-live="polite"></div>
+    </section>
+  </main>
+  <script type="module" src="/js/modulos/canciones.js"></script>
+</body>
+</html>

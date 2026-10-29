@@ -1,0 +1,76 @@
+/* publico/css/modulos/verificar.css · Estilos para verificación pública de certificados */
+
+.verificar-seccion {
+  max-width: 640px;
+  margin: var(--espacio-xl) auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-l);
+}
+
+.verificar-tarjeta {
+  background-color: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio-l);
+  padding: var(--espacio-xl);
+  box-shadow: var(--sombra-m);
+}
+
+.verificar-formulario {
+  display: flex;
+  gap: var(--espacio-s);
+  margin-top: var(--espacio-m);
+}
+
+.verificar-formulario .campo {
+  flex-grow: 1;
+  margin: 0;
+}
+
+.verificar-formulario input {
+  font-family: monospace;
+  font-size: var(--tamano-l);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.verificar-resultado {
+  margin-top: var(--espacio-l);
+  border-radius: var(--radio-m);
+  padding: var(--espacio-l);
+}
+
+.verificar-resultado--valido {
+  background-color: var(--color-superficie);
+  border: 2px solid var(--color-exito);
+  box-shadow: var(--sombra-s);
+}
+
+.verificar-resultado--invalido {
+  background-color: var(--color-superficie);
+  border: 2px solid var(--color-error);
+  box-shadow: var(--sombra-s);
+}
+
+.verificar-encabezado-resultado {
+  display: flex;
+  align-items: center;
+  gap: var(--espacio-s);
+  margin-bottom: var(--espacio-m);
+}
+
+.verificar-icono {
+  font-size: var(--tamano-2xl);
+  line-height: 1;
+}
+
+.verificar-detalles {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-s);
+  font-size: var(--tamano-m);
+}
+
+.verificar-detalles strong {
+  color: var(--color-primario);
+}

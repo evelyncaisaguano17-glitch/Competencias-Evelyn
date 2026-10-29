@@ -1,0 +1,85 @@
+[
+  {
+    "id": "tem_000001",
+    "unidadId": "uni_000001",
+    "titulo": "Manejo de heridas posquirúrgicas",
+    "orden": 1,
+    "objetivos": [
+      "Comprender los principios de asepsia y curación estéril en incisiones quirúrgicas",
+      "Aplicar técnicas clínicas adecuadas para el cambio de apósitos y control de drenajes"
+    ],
+    "resumen": "Protocolos clínicos fundamentales para la valoración, curación estéril, manejo de apósitos y prevención de complicaciones en incisiones posoperatorias.",
+    "ejemplos": [
+      "Técnica estéril de curación y cambio de apósitos en herida limpia",
+      "Retiro seguro y oportuno de suturas o grapas quirúrgicas según evolución"
+    ],
+    "erroresFrecuentes": [
+      "Manipular la incisión operatoria sin estricta higiene de manos ni guantes estériles",
+      "Permitir que los apósitos saturados de exudado permanezcan sin recambio oportuno"
+    ],
+    "preguntasGuia": [
+      "¿Cuáles son los signos clínicos que orientan la frecuencia de cambio de apósitos?",
+      "¿Cómo evaluar la correcta aproximación de los bordes y el estado de la sutura?"
+    ],
+    "recursos": [
+      {
+        "tipo": "enlace",
+        "titulo": "Guía Clínica de Cuidado y Curación de Heridas Quirúrgicas",
+        "url": "https://www.who.int"
+      }
+    ],
+    "palabrasClave": [
+      "heridas",
+      "posquirurgico",
+      "suturas",
+      "curacion",
+      "asepsia"
+    ],
+    "dificultad": "intermedio",
+    "fuentes": "Manual de Cirugía y Guías de Práctica Clínica Posoperatoria (2025)",
+    "estado": "publicado",
+    "fecha": "2026-10-25T00:00:00.000Z"
+  },
+  {
+    "id": "tem_000002",
+    "unidadId": "uni_000001",
+    "titulo": "Infección de heridas y proceso de cicatrización",
+    "orden": 2,
+    "objetivos": [
+      "Identificar los signos tempranos de infección del sitio quirúrgico (ISQ) y clasificar su profundidad",
+      "Analizar las fases biológicas de la cicatrización (inflamación, proliferación y remodelación)"
+    ],
+    "resumen": "Fisiopatología de la infección en heridas quirúrgicas, factores de riesgo microbiano y mecanismos celulares de la reparación y síntesis de colágeno.",
+    "ejemplos": [
+      "Diferenciación entre eritema fisiológico reactivo y celulitis infecciosa",
+      "Evolución y manejo del tejido de granulación durante la fase proliferativa"
+    ],
+    "erroresFrecuentes": [
+      "Administrar antibióticos sistémicos sin realizar cultivo de exudado ni valorar drenaje de colecciones",
+      "Aplicar sustancias antisépticas agresivas o citotóxicas sobre tejido celular en regeneración"
+    ],
+    "preguntasGuia": [
+      "¿Qué criterios clínicos diferencian una infección incisional superficial de una profunda?",
+      "¿Qué factores locales o sistémicos retrasan la síntesis de colágeno y prolongan la inflamación?"
+    ],
+    "recursos": [
+      {
+        "tipo": "enlace",
+        "titulo": "Directrices para la Prevención de la Infección del Sitio Quirúrgico (OMS / CDC)",
+        "url": "https://www.cdc.gov"
+      }
+    ],
+    "palabrasClave": [
+      "infeccion",
+      "cicatrizacion",
+      "colageno",
+      "granulacion",
+      "eritema",
+      "sepsis"
+    ],
+    "dificultad": "avanzado",
+    "fuentes": "Centers for Disease Control and Prevention (CDC) y Principios de Cirugía Schwartz (2025)",
+    "estado": "publicado",
+    "fecha": "2026-10-25T00:00:00.000Z"
+  }
+]

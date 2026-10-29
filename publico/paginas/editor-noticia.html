@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Editor de noticia · Ecosistema Educativo</title>
+  <link rel="stylesheet" href="/css/tokens.css">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/componentes.css">
+  <link rel="stylesheet" href="/css/modulos/editor-noticia.css">
+</head>
+<body>
+  <div id="plantilla"></div>
+  <main id="contenido" class="contenedor">
+    <div class="fila fila--entre fila--centrada margen-b-4">
+      <div>
+        <a href="/paginas/noticias.html" class="enlace">← Volver a Noticias</a>
+        <h2 id="editor-titulo-pagina" class="margen-t-1">Nueva noticia</h2>
+      </div>
+      <div class="fila fila--centrada">
+        <button type="button" id="btn-toggle-previa" class="btn btn--secundario">Vista previa</button>
+        <button type="button" id="btn-guardar" class="btn btn--primario">Guardar noticia</button>
+      </div>
+    </div>
+
+    <div class="editor-layout">
+      <!-- Formulario -->
+      <form id="form-noticia" class="pila tarjeta" novalidate>
+        <div class="campo">
+          <label for="noticia-titulo">Título <span aria-hidden="true">*</span></label>
+          <input type="text" id="noticia-titulo" name="titulo" required placeholder="Ej. Inicio del nuevo ciclo académico">
+          <span class="campo__error" id="error-titulo"></span>
+        </div>
+
+        <div class="campo">
+          <label for="noticia-resumen">
+            Resumen <span aria-hidden="true">*</span>
+            <small class="texto-atenuado">(máximo 200 caracteres)</small>
+          </label>
+          <textarea id="noticia-resumen" name="resumen" rows="2" maxlength="200" required placeholder="Breve introducción o resumen para la tarjeta..."></textarea>
+          <div class="fila fila--entre">
+            <span class="campo__error" id="error-resumen"></span>
+            <span class="texto-atenuado texto-pequeno" id="contador-resumen">0 / 200</span>
+          </div>
+        </div>
+
+        <div class="fila fila--adaptable">
+          <div class="campo campo--flexible">
+            <label for="noticia-categoria">Categoría <span aria-hidden="true">*</span></label>
+            <select id="noticia-categoria" name="categoria" required>
+              <option value="Institucional">Institucional</option>
+              <option value="Académica">Académica</option>
+              <option value="Eventos">Eventos</option>
+              <option value="Logros">Logros</option>
+            </select>
+          </div>
+
+          <div class="campo campo--flexible">
+            <label for="noticia-tema">Tema relacionado <small class="texto-atenuado">(opcional)</small></label>
+            <select id="noticia-tema" name="temaId">
+              <option value="">Ninguno / General</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="campo">
+          <label for="noticia-imagen">Imagen de portada</label>
+          <div class="fila fila--centrada">
+            <input type="text" id="noticia-imagen" name="imagen" placeholder="URL de la imagen o sube un archivo">
+            <label for="input-subir-imagen" class="btn btn--secundario" style="margin: 0; cursor: pointer;">
+              Subir
+            </label>
+            <input type="file" id="input-subir-imagen" accept="image/jpeg,image/png,image/webp,image/gif" style="display: none;">
+          </div>
+          <div id="vista-previa-img-wrap" class="margen-t-1" style="display: none;">
+            <img id="vista-previa-img-thumb" src="" alt="Miniatura de portada" class="editor-thumb">
+          </div>
+        </div>
+
+        <div class="campo">
+          <label for="noticia-cuerpo">
+            Cuerpo de la noticia <span aria-hidden="true">*</span>
+            <small class="texto-atenuado">(soporta negrita con *texto*, listas con - ítem y párrafos)</small>
+          </label>
+          <textarea id="noticia-cuerpo" name="cuerpo" rows="10" required placeholder="Escribe el contenido completo de la noticia aquí..."></textarea>
+          <span class="campo__error" id="error-cuerpo"></span>
+        </div>
+
+        <div class="fila fila--entre fila--centrada">
+          <div class="campo campo--checkbox" style="margin: 0;">
+            <label class="fila fila--centrada" style="cursor: pointer; gap: var(--espacio-2);">
+              <input type="checkbox" id="noticia-destacada" name="destacada">
+              <span>Destacar esta noticia (aparece primero)</span>
+            </label>
+          </div>
+
+          <div class="campo" style="margin: 0; min-width: 180px;">
+            <label for="noticia-estado">Estado</label>
+            <select id="noticia-estado" name="estado">
+              <option value="borrador">Borrador</option>
+              <option value="publicado">Publicado</option>
+            </select>
+          </div>
+        </div>
+      </form>
+
+      <!-- Panel de Vista Previa -->
+      <section id="panel-vista-previa" class="tarjeta panel-previa" aria-label="Vista previa de la noticia">
+        <h3 class="panel-previa__encabezado">Vista previa en tiempo real</h3>
+        <article class="noticia-previa">
+          <div class="fila fila--entre fila--centrada margen-b-2">
+            <span id="prev-categoria" class="insignia insignia--primario">Institucional</span>
+            <span id="prev-destacada" class="insignia insignia--exito" style="display: none;">★ Destacada</span>
+          </div>
+          <h2 id="prev-titulo" class="margen-b-2">Título de la noticia</h2>
+          <p id="prev-resumen" class="texto-atenuado margen-b-3 noticia-previa__resumen">Resumen de la noticia...</p>
+          <div id="prev-img-container" class="margen-b-3" style="display: none;">
+            <img id="prev-imagen" src="" alt="" class="noticia-previa__img">
+          </div>
+          <div id="prev-cuerpo" class="prosa"></div>
+        </article>
+      </section>
+    </div>
+  </main>
+  <script type="module" src="/js/modulos/editor-noticia.js"></script>
+</body>
+</html>

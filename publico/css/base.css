@@ -1,0 +1,279 @@
+/* publico/css/base.css · Estilos base, reset ligero y utilidades estructurales */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* 1. Reset ligero */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--espacio-xl);
+}
+
+body {
+  font-family: var(--fuente-base);
+  font-size: var(--tamano-m);
+  font-weight: var(--peso-regular);
+  line-height: var(--interlineado-base);
+  color: var(--color-texto);
+  background-color: var(--color-fondo);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 2. Tipografía */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--fuente-titulos);
+  color: var(--color-primario);
+  line-height: var(--interlineado-apretado);
+  font-weight: var(--peso-negrita);
+}
+
+h1 {
+  font-size: var(--tamano-3xl);
+  font-weight: var(--peso-extranegrita);
+  margin-bottom: var(--espacio-m);
+}
+
+h2 {
+  font-size: var(--tamano-2xl);
+  margin-bottom: var(--espacio-s);
+}
+
+h3 {
+  font-size: var(--tamano-xl);
+  font-weight: var(--peso-seminegrita);
+  margin-bottom: var(--espacio-s);
+}
+
+h4 {
+  font-size: var(--tamano-l);
+  margin-bottom: var(--espacio-xs);
+}
+
+h5 {
+  font-size: var(--tamano-m);
+  font-weight: var(--peso-seminegrita);
+  margin-bottom: var(--espacio-xs);
+}
+
+h6 {
+  font-size: var(--tamano-s);
+  font-weight: var(--peso-seminegrita);
+  margin-bottom: var(--espacio-xs);
+}
+
+p {
+  margin-bottom: var(--espacio-m);
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+small {
+  font-size: var(--tamano-s);
+  color: var(--color-texto-suave);
+}
+
+/* 3. Enlaces */
+a {
+  color: var(--color-secundario);
+  text-decoration: none;
+  transition: color var(--transicion);
+}
+
+a:hover {
+  color: var(--color-primario);
+  text-decoration: underline;
+}
+
+/* 4. Foco visible accesible */
+:focus-visible {
+  outline: 3px solid var(--color-foco);
+  outline-offset: 2px;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* 5. Utilidades estructurales */
+.contenedor {
+  width: 100%;
+  max-width: var(--ancho-maximo);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--espacio-m);
+  padding-right: var(--espacio-m);
+}
+
+/* Columna con separación uniforme */
+.pila {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-m);
+}
+
+/* Fila flexible con separación */
+.fila {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--espacio-m);
+  flex-wrap: wrap;
+}
+
+/* Cuadrícula adaptable */
+.grid-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: var(--espacio-m);
+}
+
+/* Elemento oculto */
+.oculto {
+  display: none !important;
+}
+
+/* Elemento accesible exclusivo para lectores de pantalla */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ==========================================================================
+   6. Diseño general (Layout: encabezado arriba, menú a la izquierda, contenido y pie)
+   ========================================================================== */
+#plantilla {
+  display: contents;
+}
+
+body {
+  display: grid;
+  grid-template-areas:
+    "encabezado encabezado"
+    "menu contenido"
+    "pie pie";
+  grid-template-columns: 260px 1fr;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+.encabezado {
+  grid-area: encabezado;
+}
+
+.encabezado__nombre {
+  color: var(--color-texto-inverso);
+  font-weight: var(--peso-extranegrita);
+  text-decoration: none;
+}
+
+.encabezado__nombre:hover {
+  color: var(--color-acento);
+  text-decoration: none;
+}
+
+.encabezado__separador {
+  color: var(--color-secundario);
+  opacity: 0.8;
+}
+
+.encabezado__titulo {
+  font-size: var(--tamano-m);
+  font-weight: var(--peso-medio);
+  color: var(--color-superficie-alt);
+  margin: 0;
+  line-height: 1;
+}
+
+.encabezado__perfil {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--espacio-xs);
+  color: var(--color-texto-inverso);
+  text-decoration: none;
+  font-size: var(--tamano-s);
+  font-weight: var(--peso-medio);
+}
+
+.encabezado__perfil:hover {
+  color: var(--color-acento);
+  text-decoration: none;
+}
+
+.encabezado__usuario-nombre {
+  display: inline-block;
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.menu {
+  grid-area: menu;
+}
+
+#contenido {
+  grid-area: contenido;
+  padding-top: var(--espacio-l);
+  padding-bottom: var(--espacio-xl);
+}
+
+.pie {
+  grid-area: pie;
+}
+
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 280px;
+    z-index: 900;
+  }
+
+  .menu.menu--abierto {
+    display: flex;
+  }
+
+  #contenido {
+    flex: 1;
+    padding-top: var(--espacio-m);
+    padding-bottom: var(--espacio-l);
+  }
+}
+

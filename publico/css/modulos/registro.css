@@ -1,0 +1,43 @@
+/* publico/css/modulos/registro.css · Estilos para formulario de registro */
+.registro-tarjeta {
+  max-width: 520px;
+  margin: var(--espacio-xl) auto;
+  padding: var(--espacio-xl);
+}
+
+.registro-encabezado {
+  text-align: center;
+  margin-bottom: var(--espacio-l);
+}
+
+.registro-encabezado h2 {
+  font-size: var(--tamano-xl);
+  color: var(--color-primario);
+  margin-bottom: var(--espacio-xs);
+}
+
+.registro-casilla {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--espacio-s);
+  margin-top: var(--espacio-s);
+}
+
+.registro-casilla input[type="checkbox"] {
+  width: auto;
+  min-height: auto;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.registro-casilla label {
+  font-size: var(--tamano-s);
+  cursor: pointer;
+  line-height: var(--interlineado-base);
+}
+
+.registro-enlaces {
+  margin-top: var(--espacio-m);
+  text-align: center;
+  font-size: var(--tamano-s);
+}
