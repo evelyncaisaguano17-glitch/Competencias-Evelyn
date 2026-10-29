@@ -1,0 +1,22 @@
+[
+  {
+    "usuarioId": "usu_000004",
+    "asignaturaId": "asi_000001",
+    "temaId": null,
+    "dia": "2026-10-28",
+    "mensajes": 14,
+    "ultimaConsulta": "2026-10-28T01:07:20.012Z",
+    "id": "con_000001",
+    "fecha": "2026-10-28T00:11:01.914Z"
+  },
+  {
+    "usuarioId": "usu_000004",
+    "asignaturaId": "asi_000001",
+    "temaId": null,
+    "dia": "2026-10-29",
+    "mensajes": 11,
+    "ultimaConsulta": "2026-10-29T02:31:17.050Z",
+    "id": "con_000002",
+    "fecha": "2026-10-29T00:08:34.994Z"
+  }
+]

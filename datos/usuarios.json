@@ -1,0 +1,2032 @@
+[
+  {
+    "id": "usu_000001",
+    "nombre": "Ana",
+    "apellido": "Administradora",
+    "correo": "admin@demo.ec",
+    "rol": "admin",
+    "activo": true,
+    "foto": null,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-25T00:00:00.000Z"
+    },
+    "fecha": "2026-10-25T00:00:00.000Z",
+    "claveHash": "$2a$10$qaNF.14hTwiDZy4ro007HuShFzIvwY1eICLilC87sRxa2C6HsLLZu"
+  },
+  {
+    "id": "usu_000002",
+    "nombre": "Bernardo",
+    "apellido": "Docente Uno",
+    "correo": "docente1@demo.ec",
+    "rol": "docente",
+    "activo": true,
+    "foto": null,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-25T00:00:00.000Z"
+    },
+    "fecha": "2026-10-25T00:00:00.000Z",
+    "claveHash": "$2a$10$qaNF.14hTwiDZy4ro007HuShFzIvwY1eICLilC87sRxa2C6HsLLZu"
+  },
+  {
+    "id": "usu_000003",
+    "nombre": "Carmen",
+    "apellido": "Docente Dos",
+    "correo": "docente2@demo.ec",
+    "rol": "docente",
+    "activo": true,
+    "foto": null,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-25T00:00:00.000Z"
+    },
+    "fecha": "2026-10-25T00:00:00.000Z",
+    "claveHash": "$2a$10$qaNF.14hTwiDZy4ro007HuShFzIvwY1eICLilC87sRxa2C6HsLLZu"
+  },
+  {
+    "id": "usu_000004",
+    "nombre": "Daniel",
+    "apellido": "Estudiante Uno",
+    "correo": "estudiante1@demo.ec",
+    "rol": "estudiante",
+    "activo": true,
+    "foto": null,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-25T00:00:00.000Z"
+    },
+    "fecha": "2026-10-25T00:00:00.000Z",
+    "claveHash": "$2a$10$qaNF.14hTwiDZy4ro007HuShFzIvwY1eICLilC87sRxa2C6HsLLZu"
+  },
+  {
+    "id": "usu_000005",
+    "nombre": "Elena",
+    "apellido": "Estudiante Dos",
+    "correo": "estudiante2@demo.ec",
+    "rol": "estudiante",
+    "activo": true,
+    "foto": null,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-25T00:00:00.000Z"
+    },
+    "fecha": "2026-10-25T00:00:00.000Z",
+    "claveHash": "$2a$10$qaNF.14hTwiDZy4ro007HuShFzIvwY1eICLilC87sRxa2C6HsLLZu"
+  },
+  {
+    "id": "usu_000006",
+    "nombre": "Fernando",
+    "apellido": "Estudiante Tres",
+    "correo": "estudiante3@demo.ec",
+    "rol": "estudiante",
+    "activo": true,
+    "foto": null,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-25T00:00:00.000Z"
+    },
+    "fecha": "2026-10-25T00:00:00.000Z",
+    "claveHash": "$2a$10$qaNF.14hTwiDZy4ro007HuShFzIvwY1eICLilC87sRxa2C6HsLLZu"
+  },
+  {
+    "id": "usu_000007",
+    "nombre": "Gabriela",
+    "apellido": "Estudiante Cuatro",
+    "correo": "estudiante4@demo.ec",
+    "rol": "estudiante",
+    "activo": true,
+    "foto": null,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-25T00:00:00.000Z"
+    },
+    "fecha": "2026-10-25T00:00:00.000Z",
+    "claveHash": "$2a$10$qaNF.14hTwiDZy4ro007HuShFzIvwY1eICLilC87sRxa2C6HsLLZu"
+  },
+  {
+    "id": "usu_000008",
+    "nombre": "Hugo",
+    "apellido": "Estudiante Cinco",
+    "correo": "estudiante5@demo.ec",
+    "rol": "estudiante",
+    "activo": true,
+    "foto": null,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-25T00:00:00.000Z"
+    },
+    "fecha": "2026-10-25T00:00:00.000Z",
+    "claveHash": "$2a$10$qaNF.14hTwiDZy4ro007HuShFzIvwY1eICLilC87sRxa2C6HsLLZu"
+  },
+  {
+    "id": "usu_000009",
+    "nombre": "Isabel",
+    "apellido": "Estudiante Seis",
+    "correo": "estudiante6@demo.ec",
+    "rol": "estudiante",
+    "activo": true,
+    "foto": null,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-25T00:00:00.000Z"
+    },
+    "fecha": "2026-10-25T00:00:00.000Z",
+    "claveHash": "$2a$10$qaNF.14hTwiDZy4ro007HuShFzIvwY1eICLilC87sRxa2C6HsLLZu"
+  },
+  {
+    "id": "usu_000010",
+    "nombre": "Daniel",
+    "apellido": "Estudiante Demo",
+    "correo": "estudiante@demo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "foto": null,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-25T00:00:00.000Z"
+    },
+    "fecha": "2026-10-25T00:00:00.000Z",
+    "claveHash": "$2a$10$yppe4tMR6e/l0ggFcBSUeelBB4VLxsPXAkBHZWrQF./wUkUuzlvHu"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1792929978887@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000010",
+    "fecha": "2026-10-25T12:06:18.889Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1792929978898@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000011",
+    "fecha": "2026-10-25T12:06:18.900Z"
+  },
+  {
+    "nombre": "María Elena",
+    "apellido": "López Castro",
+    "correo": "maria@ejemplo.com",
+    "claveHash": "$2a$10$2B5iaVwSWg2G2imyh7jURutBI711RyUbGZt4uST0V9K46v9PsCkJ6",
+    "rol": "estudiante",
+    "activo": true,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-25T12:06:19.665Z"
+    },
+    "id": "usu_000001",
+    "fecha": "2026-10-25T12:06:19.666Z",
+    "foto": "avatar.png"
+  },
+  {
+    "nombre": "Super",
+    "apellido": "Admin",
+    "correo": "admin@ejemplo.com",
+    "claveHash": "$2a$10$32j/sDuVhjb1u2pOgGKeH.LzGVB7AnIrfnleb912IrAPs11RfO3K2",
+    "rol": "admin",
+    "activo": true,
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-25T12:06:20.471Z"
+    },
+    "id": "usu_000002",
+    "fecha": "2026-10-25T12:06:20.482Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1792929986136_hlm6fsgtidi@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000012",
+    "fecha": "2026-10-25T12:06:26.140Z"
+  },
+  {
+    "id": "usu_000099",
+    "nombre": "Evelyn Yajaira",
+    "apellido": "Caisaguano Díaz",
+    "correo": "evelyncaisaguano17@gmail.com",
+    "rol": "admin",
+    "activo": true,
+    "foto": "/recursos/subidas/95013e56c19efe198939bdae18e3cc41.jpg",
+    "consentimiento": {
+      "aceptado": true,
+      "fecha": "2026-10-25T12:10:02.163Z"
+    },
+    "fecha": "2026-10-25T12:10:02.164Z",
+    "claveHash": "$2a$10$uBbeunkWtyAfh0ctkkid/.C7a6JXqn0/OjNBY1xgc7CRmFK5.a84C"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1792930220719@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000100",
+    "fecha": "2026-10-25T12:10:20.723Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1792930220736@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000101",
+    "fecha": "2026-10-25T12:10:20.740Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1792930228694_a5482yubitm@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000102",
+    "fecha": "2026-10-25T12:10:28.698Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1792930899295@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000103",
+    "fecha": "2026-10-25T12:21:39.297Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1792930899305@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000104",
+    "fecha": "2026-10-25T12:21:39.309Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1792930906568_okvipyql4b@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000105",
+    "fecha": "2026-10-25T12:21:46.573Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1792931403009@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000106",
+    "fecha": "2026-10-25T12:30:03.012Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1792931403021@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000107",
+    "fecha": "2026-10-25T12:30:03.023Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1792931410777_4nr7obaedkn@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000108",
+    "fecha": "2026-10-25T12:30:10.785Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1792931736824@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000109",
+    "fecha": "2026-10-25T12:35:36.827Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1792931736837@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000110",
+    "fecha": "2026-10-25T12:35:36.839Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1792931744870_xrpv5ngrzyg@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000111",
+    "fecha": "2026-10-25T12:35:44.874Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1792932252721@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000112",
+    "fecha": "2026-10-25T12:44:12.724Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1792932252734@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000113",
+    "fecha": "2026-10-25T12:44:12.735Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1792932260980_2byie0qaw3i@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000114",
+    "fecha": "2026-10-25T12:44:20.984Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1792934775225@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000115",
+    "fecha": "2026-10-25T13:26:15.227Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1792934775237@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000116",
+    "fecha": "2026-10-25T13:26:15.241Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1792934783772_3mw0dzj8qrg@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000117",
+    "fecha": "2026-10-25T13:26:23.778Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1792934822066@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000118",
+    "fecha": "2026-10-25T13:27:02.068Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1792934822078@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000119",
+    "fecha": "2026-10-25T13:27:02.081Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1792934830174_wqgtdvp110h@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000120",
+    "fecha": "2026-10-25T13:27:10.179Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1792934861167@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000121",
+    "fecha": "2026-10-25T13:27:41.170Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1792934861180@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000122",
+    "fecha": "2026-10-25T13:27:41.182Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1792934869208_sl0d7hv5bai@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000123",
+    "fecha": "2026-10-25T13:27:49.213Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1792935404587@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000124",
+    "fecha": "2026-10-25T13:36:44.591Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1792935404603@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000125",
+    "fecha": "2026-10-25T13:36:44.604Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1792935412827_vmkgylfyldn@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000126",
+    "fecha": "2026-10-25T13:36:52.834Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1792935736036@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000127",
+    "fecha": "2026-10-25T13:42:16.039Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1792935736051@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000128",
+    "fecha": "2026-10-25T13:42:16.053Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1792935744273_m4wl0p264gd@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000129",
+    "fecha": "2026-10-25T13:42:24.278Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1792936409536@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000130",
+    "fecha": "2026-10-25T13:53:29.541Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1792936409552@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000131",
+    "fecha": "2026-10-25T13:53:29.554Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1792936418391_dufs2epn9r@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000132",
+    "fecha": "2026-10-25T13:53:38.397Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1792936809709@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000133",
+    "fecha": "2026-10-25T14:00:09.710Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1792936809722@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000134",
+    "fecha": "2026-10-25T14:00:09.724Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1792936818241_2ym4esc0nhp@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000135",
+    "fecha": "2026-10-25T14:00:18.247Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1792939129068@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000136",
+    "fecha": "2026-10-25T14:38:49.070Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1792939129082@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000137",
+    "fecha": "2026-10-25T14:38:49.084Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1792939138451_4l7iyux2ivg@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000138",
+    "fecha": "2026-10-25T14:38:58.458Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1792939243054@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000139",
+    "fecha": "2026-10-25T14:40:43.056Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1792939243069@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000140",
+    "fecha": "2026-10-25T14:40:43.071Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1792939251951_o76zeum1ynm@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000141",
+    "fecha": "2026-10-25T14:40:51.955Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1792944877004@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000142",
+    "fecha": "2026-10-25T16:14:37.010Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1792944877023@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000143",
+    "fecha": "2026-10-25T16:14:37.025Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1792944885504_dbc3tunwzfi@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000144",
+    "fecha": "2026-10-25T16:14:45.511Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793061923586@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000145",
+    "fecha": "2026-10-27T00:45:23.592Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793061923603@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000146",
+    "fecha": "2026-10-27T00:45:23.607Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793061933922_os2rtzzddv8@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000147",
+    "fecha": "2026-10-27T00:45:33.930Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793062420452@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000148",
+    "fecha": "2026-10-27T00:53:40.456Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793062420479@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000149",
+    "fecha": "2026-10-27T00:53:40.482Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793062429500_owltq97vrq@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000150",
+    "fecha": "2026-10-27T00:53:49.507Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793063061274@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000151",
+    "fecha": "2026-10-27T01:04:21.277Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793063061293@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000152",
+    "fecha": "2026-10-27T01:04:21.311Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793063071673_7xr66fz5td6@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000153",
+    "fecha": "2026-10-27T01:04:31.679Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793063160825@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000154",
+    "fecha": "2026-10-27T01:06:00.827Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793063160842@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000155",
+    "fecha": "2026-10-27T01:06:00.844Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793063171905_5suv6fd00le@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000156",
+    "fecha": "2026-10-27T01:06:11.911Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793063215147@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000157",
+    "fecha": "2026-10-27T01:06:55.151Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793063215168@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000158",
+    "fecha": "2026-10-27T01:06:55.171Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793063225668_5lpuc55sxh@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000159",
+    "fecha": "2026-10-27T01:07:05.677Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793063508667@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000160",
+    "fecha": "2026-10-27T01:11:48.669Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793063508680@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000161",
+    "fecha": "2026-10-27T01:11:48.682Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793063519981_srilswigbr@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000162",
+    "fecha": "2026-10-27T01:11:59.989Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793063536677@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000163",
+    "fecha": "2026-10-27T01:12:16.681Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793063536698@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000164",
+    "fecha": "2026-10-27T01:12:16.701Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793063547488_4e5grczxx41@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000165",
+    "fecha": "2026-10-27T01:12:27.493Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793063607336@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000166",
+    "fecha": "2026-10-27T01:13:27.339Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793063607349@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000167",
+    "fecha": "2026-10-27T01:13:27.351Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793063617840_jxket9odff@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000168",
+    "fecha": "2026-10-27T01:13:37.846Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793063998659@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000169",
+    "fecha": "2026-10-27T01:19:58.662Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793063998679@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000170",
+    "fecha": "2026-10-27T01:19:58.682Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793064009662_q9kyxovx1rl@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000171",
+    "fecha": "2026-10-27T01:20:09.666Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793064323385@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000172",
+    "fecha": "2026-10-27T01:25:23.387Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793064323399@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000173",
+    "fecha": "2026-10-27T01:25:23.401Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793064334037_btzy4viahhn@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000174",
+    "fecha": "2026-10-27T01:25:34.046Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793064861333@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000175",
+    "fecha": "2026-10-27T01:34:21.338Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793064861352@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000176",
+    "fecha": "2026-10-27T01:34:21.355Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793064872060_fmu26dfd9be@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000177",
+    "fecha": "2026-10-27T01:34:32.066Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793064953725@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000178",
+    "fecha": "2026-10-27T01:35:53.727Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793064953735@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000179",
+    "fecha": "2026-10-27T01:35:53.737Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793064963593_65h8vzb3xzx@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000180",
+    "fecha": "2026-10-27T01:36:03.597Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793065215398@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000181",
+    "fecha": "2026-10-27T01:40:15.401Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793065215412@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000182",
+    "fecha": "2026-10-27T01:40:15.414Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793065225399_aqx47g66qzo@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000183",
+    "fecha": "2026-10-27T01:40:25.403Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793066437477@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000184",
+    "fecha": "2026-10-27T02:00:37.480Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793066437491@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000185",
+    "fecha": "2026-10-27T02:00:37.492Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793066447786_p1i88xd399@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000186",
+    "fecha": "2026-10-27T02:00:47.790Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793066878576@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000187",
+    "fecha": "2026-10-27T02:07:58.578Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793066878585@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000188",
+    "fecha": "2026-10-27T02:07:58.587Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793066889000_3fwe07ggg4a@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000189",
+    "fecha": "2026-10-27T02:08:09.005Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793067941473@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000190",
+    "fecha": "2026-10-27T02:25:41.475Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793067941485@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000191",
+    "fecha": "2026-10-27T02:25:41.487Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793067953006_vygu510bsrr@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000192",
+    "fecha": "2026-10-27T02:25:53.011Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793068169348@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000193",
+    "fecha": "2026-10-27T02:29:29.350Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793068169360@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000194",
+    "fecha": "2026-10-27T02:29:29.362Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793068180367_og84ugts8uk@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000195",
+    "fecha": "2026-10-27T02:29:40.372Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793068729148@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000196",
+    "fecha": "2026-10-27T02:38:49.151Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793068729165@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000197",
+    "fecha": "2026-10-27T02:38:49.167Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793068742310_wvu9u0xuxdk@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000198",
+    "fecha": "2026-10-27T02:39:02.320Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793069153235@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000199",
+    "fecha": "2026-10-27T02:45:53.238Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793069153245@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000200",
+    "fecha": "2026-10-27T02:45:53.247Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793069164845_kyka03pszdn@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000201",
+    "fecha": "2026-10-27T02:46:04.851Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793069683216@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000202",
+    "fecha": "2026-10-27T02:54:43.219Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793069683237@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000203",
+    "fecha": "2026-10-27T02:54:43.247Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793069696528_fr8l4kq10ts@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000204",
+    "fecha": "2026-10-27T02:54:56.533Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793069803939@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000205",
+    "fecha": "2026-10-27T02:56:43.942Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793069803956@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000206",
+    "fecha": "2026-10-27T02:56:43.958Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793069817478_7zdu94frlkq@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000207",
+    "fecha": "2026-10-27T02:56:57.486Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793069920927@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000208",
+    "fecha": "2026-10-27T02:58:40.938Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793069920962@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000209",
+    "fecha": "2026-10-27T02:58:40.965Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793069932785_yhy6lu5v4rc@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000210",
+    "fecha": "2026-10-27T02:58:52.789Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793070502201@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000211",
+    "fecha": "2026-10-27T03:08:22.203Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793070502213@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000212",
+    "fecha": "2026-10-27T03:08:22.215Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793070514067_b7k7jz6kzq5@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000213",
+    "fecha": "2026-10-27T03:08:34.071Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793070631401@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000214",
+    "fecha": "2026-10-27T03:10:31.403Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793070631414@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000215",
+    "fecha": "2026-10-27T03:10:31.416Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793070642846_6xs494eg4ti@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000216",
+    "fecha": "2026-10-27T03:10:42.850Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793070857456@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000217",
+    "fecha": "2026-10-27T03:14:17.458Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793070857467@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000218",
+    "fecha": "2026-10-27T03:14:17.469Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793070869111_d6daj3mxbs@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000219",
+    "fecha": "2026-10-27T03:14:29.115Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793071595566@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000220",
+    "fecha": "2026-10-27T03:26:35.569Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793071595584@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000221",
+    "fecha": "2026-10-27T03:26:35.586Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793071609143_w45qlupegge@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000222",
+    "fecha": "2026-10-27T03:26:49.147Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793072709957@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000223",
+    "fecha": "2026-10-27T03:45:09.959Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793072709967@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000224",
+    "fecha": "2026-10-27T03:45:09.969Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793072725931_vcscb4biwzg@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000225",
+    "fecha": "2026-10-27T03:45:25.935Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793073213242@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000226",
+    "fecha": "2026-10-27T03:53:33.244Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793073213256@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000227",
+    "fecha": "2026-10-27T03:53:33.258Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793073228148_7fw6kua4w7h@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000228",
+    "fecha": "2026-10-27T03:53:48.159Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793073651070@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000229",
+    "fecha": "2026-10-27T04:00:51.077Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793073651086@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000230",
+    "fecha": "2026-10-27T04:00:51.088Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793073666829_4wqzq9xrlqa@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000231",
+    "fecha": "2026-10-27T04:01:06.837Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793127214842@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000232",
+    "fecha": "2026-10-27T18:53:34.844Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793127214857@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000233",
+    "fecha": "2026-10-27T18:53:34.861Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793127230614_c6kpdv38v6h@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000234",
+    "fecha": "2026-10-27T18:53:50.620Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793127396514@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000235",
+    "fecha": "2026-10-27T18:56:36.518Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793127396536@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000236",
+    "fecha": "2026-10-27T18:56:36.538Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793127411478_d0ocw459kli@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000237",
+    "fecha": "2026-10-27T18:56:51.482Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793137415086@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000238",
+    "fecha": "2026-10-27T21:43:35.087Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793137415097@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000239",
+    "fecha": "2026-10-27T21:43:35.099Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793137430473_f5pbt5nytqp@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000240",
+    "fecha": "2026-10-27T21:43:50.481Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793138456278@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000241",
+    "fecha": "2026-10-27T22:00:56.280Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793138456296@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000242",
+    "fecha": "2026-10-27T22:00:56.298Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793138472900_3qlrflipi7b@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000243",
+    "fecha": "2026-10-27T22:01:12.911Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793138992137@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000244",
+    "fecha": "2026-10-27T22:09:52.140Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793138992156@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000245",
+    "fecha": "2026-10-27T22:09:52.158Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793139009823_zgq43ox88ue@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000246",
+    "fecha": "2026-10-27T22:10:09.836Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793139041983@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000247",
+    "fecha": "2026-10-27T22:10:41.986Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793139041996@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000248",
+    "fecha": "2026-10-27T22:10:41.998Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793139056977_rfej9ap2v2g@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000249",
+    "fecha": "2026-10-27T22:10:56.982Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793139429221@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000250",
+    "fecha": "2026-10-27T22:17:09.224Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793139429238@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000251",
+    "fecha": "2026-10-27T22:17:09.239Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793139446346_rmyi29eukz8@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000252",
+    "fecha": "2026-10-27T22:17:26.352Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793139533790@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000253",
+    "fecha": "2026-10-27T22:18:53.793Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793139533809@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000254",
+    "fecha": "2026-10-27T22:18:53.813Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793139552120_0qgzyvri9yo@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000255",
+    "fecha": "2026-10-27T22:19:12.128Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793142102431@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000256",
+    "fecha": "2026-10-27T23:01:42.433Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793142102441@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000257",
+    "fecha": "2026-10-27T23:01:42.443Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793142120136_7wlfu8rma97@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000258",
+    "fecha": "2026-10-27T23:02:00.143Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793142240342@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000259",
+    "fecha": "2026-10-27T23:04:00.344Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793142240355@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000260",
+    "fecha": "2026-10-27T23:04:00.358Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793142256402_i32nbzkwmmg@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000261",
+    "fecha": "2026-10-27T23:04:16.409Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793143024727@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000262",
+    "fecha": "2026-10-27T23:17:04.730Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793143024749@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000263",
+    "fecha": "2026-10-27T23:17:04.752Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793143042519_2jmtovh9s43@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000264",
+    "fecha": "2026-10-27T23:17:22.525Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793143520529@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000265",
+    "fecha": "2026-10-27T23:25:20.531Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793143520544@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000266",
+    "fecha": "2026-10-27T23:25:20.545Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793143537522_ucjt9ufoe99@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000267",
+    "fecha": "2026-10-27T23:25:37.528Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793143564468@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000268",
+    "fecha": "2026-10-27T23:26:04.470Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793143564479@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000269",
+    "fecha": "2026-10-27T23:26:04.481Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793143582005_cx5wlecrba@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000270",
+    "fecha": "2026-10-27T23:26:22.009Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793143756050@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000271",
+    "fecha": "2026-10-27T23:29:16.053Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793143756067@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000272",
+    "fecha": "2026-10-27T23:29:16.068Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793143771598_7snwp7aacwk@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000273",
+    "fecha": "2026-10-27T23:29:31.604Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793144828376@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000274",
+    "fecha": "2026-10-27T23:47:08.379Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793144828393@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000275",
+    "fecha": "2026-10-27T23:47:08.396Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793144848025_amaeps2whcn@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000276",
+    "fecha": "2026-10-27T23:47:28.032Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793146243456@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000277",
+    "fecha": "2026-10-28T00:10:43.459Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793146243470@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000278",
+    "fecha": "2026-10-28T00:10:43.472Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793146261416_1t4w7xyckoy@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000279",
+    "fecha": "2026-10-28T00:11:01.420Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793146290168@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000280",
+    "fecha": "2026-10-28T00:11:30.172Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793146290186@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000281",
+    "fecha": "2026-10-28T00:11:30.188Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793146308796_i6kno2g9cee@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000282",
+    "fecha": "2026-10-28T00:11:48.802Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793146905753@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000283",
+    "fecha": "2026-10-28T00:21:45.755Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793146905764@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000284",
+    "fecha": "2026-10-28T00:21:45.766Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793146923325_ennyje63ql9@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000285",
+    "fecha": "2026-10-28T00:22:03.330Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793149613885@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000286",
+    "fecha": "2026-10-28T01:06:53.887Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793149613903@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000287",
+    "fecha": "2026-10-28T01:06:53.905Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793149631602_ggm80ng1akv@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000288",
+    "fecha": "2026-10-28T01:07:11.607Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793232495415@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000289",
+    "fecha": "2026-10-29T00:08:15.418Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793232495429@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000290",
+    "fecha": "2026-10-29T00:08:15.432Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793232514396_4an3dlvx9oo@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000291",
+    "fecha": "2026-10-29T00:08:34.402Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793240633110@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000292",
+    "fecha": "2026-10-29T02:23:53.111Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793240633119@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000293",
+    "fecha": "2026-10-29T02:23:53.121Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793240650679_isf4srcvrca@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000294",
+    "fecha": "2026-10-29T02:24:10.685Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793240695112@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000295",
+    "fecha": "2026-10-29T02:24:55.116Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793240695125@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000296",
+    "fecha": "2026-10-29T02:24:55.127Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793240713182_j9slxtqckxr@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000297",
+    "fecha": "2026-10-29T02:25:13.187Z"
+  },
+  {
+    "nombre": "Prof",
+    "apellido": "Doc",
+    "correo": "prof.1793241051882@ejemplo.com",
+    "rol": "docente",
+    "activo": true,
+    "id": "usu_000298",
+    "fecha": "2026-10-29T02:30:51.884Z"
+  },
+  {
+    "nombre": "Est",
+    "apellido": "Est",
+    "correo": "est.1793241051904@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000299",
+    "fecha": "2026-10-29T02:30:51.909Z"
+  },
+  {
+    "nombre": "Test",
+    "apellido": "Subidas",
+    "correo": "test.1793241073985_2x3018q3g4m@ejemplo.com",
+    "rol": "estudiante",
+    "activo": true,
+    "id": "usu_000300",
+    "fecha": "2026-10-29T02:31:13.992Z"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "not_000001",
+    "titulo": "Actualización de Protocolos en Cirugía y Cuidado de Heridas",
+    "resumen": "Damos la bienvenida al nuevo ciclo clínico con guías actualizadas en prevención de infecciones y manejo de heridas posquirúrgicas.",
+    "cuerpo": "Con el inicio del nuevo ciclo clínico, se incorporan protocolos actualizados para la prevención de infecciones y el manejo de heridas posquirúrgicas, con el propósito de fortalecer la seguridad del paciente y mejorar la calidad de la atención.\n\nEstas nuevas orientaciones permitirán a los estudiantes reforzar conocimientos sobre valoración de heridas, técnicas de asepsia, identificación de signos de infección, fases de cicatrización y prevención de complicaciones. Además, se promoverá la toma de decisiones clínicas responsables mediante actividades prácticas, análisis de casos y recursos interactivos.\n\nInvitamos a todos los estudiantes a revisar los contenidos actualizados y participar activamente en las actividades propuestas, fortaleciendo así sus competencias para brindar un cuidado seguro, oportuno y basado en buenas prácticas clínicas.",
+    "categoria": "Institucional",
+    "destacada": true,
+    "estado": "publicado",
+    "autorId": "usu_000001",
+    "fechaPublicacion": "2026-10-24T10:00:00.000Z",
+    "imagen": "/recursos/subidas/d5240dbc42ae854a1668406a8ea59ff2.jpg",
+    "temaId": null
+  },
+  {
+    "id": "not_000002",
+    "titulo": "Taller Clínico: Técnicas de Asepsia, Sutura y Drenajes",
+    "resumen": "Invitamos a docentes y estudiantes a participar en las jornadas prácticas sobre manejo posoperatorio de incisiones.",
+    "cuerpo": "Este taller clínico está orientado al fortalecimiento de las competencias prácticas relacionadas con el manejo seguro de incisiones posoperatorias, mediante actividades guiadas y demostraciones clínicas.\nDurante la jornada, los participantes abordarán aspectos fundamentales como:\nTécnicas de asepsia y antisepsia aplicadas al cuidado de heridas.\nPrincipios básicos de sutura y valoración de la integridad de la incisión.\nManejo y vigilancia de drenajes quirúrgicos.\nPrevención de infecciones asociadas al sitio quirúrgico.\nIdentificación de signos de alarma y posibles complicaciones.\nCuidados posoperatorios orientados a favorecer una adecuada cicatrización.\n\nLa actividad busca integrar conocimientos teóricos y prácticos, promoviendo una atención segura, responsable y centrada en el paciente. Se invita a docentes y estudiantes a participar activamente en esta experiencia de aprendizaje clínico.",
+    "categoria": "Académica",
+    "destacada": false,
+    "estado": "publicado",
+    "autorId": "usu_000002",
+    "fechaPublicacion": "2026-10-25T08:00:00.000Z",
+    "imagen": "/recursos/subidas/8ad184fd69d8f9956541e9923eaca4bd.jpg",
+    "temaId": null
+  },
+  {
+    "id": "not_000003",
+    "titulo": "Guía de apósitos",
+    "resumen": "Protocolo de apósitos estériles y control de exudado en heridas limpias y contaminadas.",
+    "cuerpo": "Normas técnicas de curación y control posoperatorio.",
+    "categoria": "Institucional",
+    "temaId": null,
+    "imagen": "/recursos/subidas/a261e6aa60b250d22b73b36cdb08eabd.jpg",
+    "destacada": false,
+    "estado": "borrador",
+    "autorId": "usu_000002",
+    "fecha": "2026-10-25T13:46:13.702Z"
+  }
+]

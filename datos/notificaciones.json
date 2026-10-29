@@ -1,0 +1,1289 @@
+[
+  {
+    "usuarioId": "usu_000004",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000001",
+    "fecha": "2026-10-29T02:31:03.447Z"
+  },
+  {
+    "usuarioId": "usu_000005",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000002",
+    "fecha": "2026-10-29T02:31:03.453Z"
+  },
+  {
+    "usuarioId": "usu_000006",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000003",
+    "fecha": "2026-10-29T02:31:03.461Z"
+  },
+  {
+    "usuarioId": "usu_000007",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000004",
+    "fecha": "2026-10-29T02:31:03.466Z"
+  },
+  {
+    "usuarioId": "usu_000008",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000005",
+    "fecha": "2026-10-29T02:31:03.471Z"
+  },
+  {
+    "usuarioId": "usu_000009",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000006",
+    "fecha": "2026-10-29T02:31:03.479Z"
+  },
+  {
+    "usuarioId": "usu_000010",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000007",
+    "fecha": "2026-10-29T02:31:03.487Z"
+  },
+  {
+    "usuarioId": "usu_000011",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000008",
+    "fecha": "2026-10-29T02:31:03.495Z"
+  },
+  {
+    "usuarioId": "usu_000001",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000009",
+    "fecha": "2026-10-29T02:31:03.500Z"
+  },
+  {
+    "usuarioId": "usu_000012",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000010",
+    "fecha": "2026-10-29T02:31:03.507Z"
+  },
+  {
+    "usuarioId": "usu_000101",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000011",
+    "fecha": "2026-10-29T02:31:03.513Z"
+  },
+  {
+    "usuarioId": "usu_000102",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000012",
+    "fecha": "2026-10-29T02:31:03.518Z"
+  },
+  {
+    "usuarioId": "usu_000104",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000013",
+    "fecha": "2026-10-29T02:31:03.525Z"
+  },
+  {
+    "usuarioId": "usu_000105",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000014",
+    "fecha": "2026-10-29T02:31:03.531Z"
+  },
+  {
+    "usuarioId": "usu_000107",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000015",
+    "fecha": "2026-10-29T02:31:03.536Z"
+  },
+  {
+    "usuarioId": "usu_000108",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000016",
+    "fecha": "2026-10-29T02:31:03.544Z"
+  },
+  {
+    "usuarioId": "usu_000110",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000017",
+    "fecha": "2026-10-29T02:31:03.550Z"
+  },
+  {
+    "usuarioId": "usu_000111",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000018",
+    "fecha": "2026-10-29T02:31:03.557Z"
+  },
+  {
+    "usuarioId": "usu_000113",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000019",
+    "fecha": "2026-10-29T02:31:03.565Z"
+  },
+  {
+    "usuarioId": "usu_000114",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000020",
+    "fecha": "2026-10-29T02:31:03.570Z"
+  },
+  {
+    "usuarioId": "usu_000116",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000021",
+    "fecha": "2026-10-29T02:31:03.578Z"
+  },
+  {
+    "usuarioId": "usu_000117",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000022",
+    "fecha": "2026-10-29T02:31:03.584Z"
+  },
+  {
+    "usuarioId": "usu_000119",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000023",
+    "fecha": "2026-10-29T02:31:03.589Z"
+  },
+  {
+    "usuarioId": "usu_000120",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000024",
+    "fecha": "2026-10-29T02:31:03.597Z"
+  },
+  {
+    "usuarioId": "usu_000122",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000025",
+    "fecha": "2026-10-29T02:31:03.602Z"
+  },
+  {
+    "usuarioId": "usu_000123",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000026",
+    "fecha": "2026-10-29T02:31:03.610Z"
+  },
+  {
+    "usuarioId": "usu_000125",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000027",
+    "fecha": "2026-10-29T02:31:03.616Z"
+  },
+  {
+    "usuarioId": "usu_000126",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000028",
+    "fecha": "2026-10-29T02:31:03.621Z"
+  },
+  {
+    "usuarioId": "usu_000128",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000029",
+    "fecha": "2026-10-29T02:31:03.630Z"
+  },
+  {
+    "usuarioId": "usu_000129",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000030",
+    "fecha": "2026-10-29T02:31:03.635Z"
+  },
+  {
+    "usuarioId": "usu_000131",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000031",
+    "fecha": "2026-10-29T02:31:03.643Z"
+  },
+  {
+    "usuarioId": "usu_000132",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000032",
+    "fecha": "2026-10-29T02:31:03.651Z"
+  },
+  {
+    "usuarioId": "usu_000134",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000033",
+    "fecha": "2026-10-29T02:31:03.659Z"
+  },
+  {
+    "usuarioId": "usu_000135",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000034",
+    "fecha": "2026-10-29T02:31:03.666Z"
+  },
+  {
+    "usuarioId": "usu_000137",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000035",
+    "fecha": "2026-10-29T02:31:03.675Z"
+  },
+  {
+    "usuarioId": "usu_000138",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000036",
+    "fecha": "2026-10-29T02:31:03.681Z"
+  },
+  {
+    "usuarioId": "usu_000140",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000037",
+    "fecha": "2026-10-29T02:31:03.687Z"
+  },
+  {
+    "usuarioId": "usu_000141",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000038",
+    "fecha": "2026-10-29T02:31:03.697Z"
+  },
+  {
+    "usuarioId": "usu_000143",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000039",
+    "fecha": "2026-10-29T02:31:03.703Z"
+  },
+  {
+    "usuarioId": "usu_000144",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000040",
+    "fecha": "2026-10-29T02:31:03.712Z"
+  },
+  {
+    "usuarioId": "usu_000146",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000041",
+    "fecha": "2026-10-29T02:31:03.718Z"
+  },
+  {
+    "usuarioId": "usu_000147",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000042",
+    "fecha": "2026-10-29T02:31:03.725Z"
+  },
+  {
+    "usuarioId": "usu_000149",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000043",
+    "fecha": "2026-10-29T02:31:03.731Z"
+  },
+  {
+    "usuarioId": "usu_000150",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000044",
+    "fecha": "2026-10-29T02:31:03.737Z"
+  },
+  {
+    "usuarioId": "usu_000152",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000045",
+    "fecha": "2026-10-29T02:31:03.748Z"
+  },
+  {
+    "usuarioId": "usu_000153",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000046",
+    "fecha": "2026-10-29T02:31:03.758Z"
+  },
+  {
+    "usuarioId": "usu_000155",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000047",
+    "fecha": "2026-10-29T02:31:03.765Z"
+  },
+  {
+    "usuarioId": "usu_000156",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000048",
+    "fecha": "2026-10-29T02:31:03.769Z"
+  },
+  {
+    "usuarioId": "usu_000158",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000049",
+    "fecha": "2026-10-29T02:31:03.777Z"
+  },
+  {
+    "usuarioId": "usu_000159",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000050",
+    "fecha": "2026-10-29T02:31:03.782Z"
+  },
+  {
+    "usuarioId": "usu_000161",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000051",
+    "fecha": "2026-10-29T02:31:03.786Z"
+  },
+  {
+    "usuarioId": "usu_000162",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000052",
+    "fecha": "2026-10-29T02:31:03.794Z"
+  },
+  {
+    "usuarioId": "usu_000164",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000053",
+    "fecha": "2026-10-29T02:31:03.799Z"
+  },
+  {
+    "usuarioId": "usu_000165",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000054",
+    "fecha": "2026-10-29T02:31:03.803Z"
+  },
+  {
+    "usuarioId": "usu_000167",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000055",
+    "fecha": "2026-10-29T02:31:03.811Z"
+  },
+  {
+    "usuarioId": "usu_000168",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000056",
+    "fecha": "2026-10-29T02:31:03.816Z"
+  },
+  {
+    "usuarioId": "usu_000170",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000057",
+    "fecha": "2026-10-29T02:31:03.820Z"
+  },
+  {
+    "usuarioId": "usu_000171",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000058",
+    "fecha": "2026-10-29T02:31:03.828Z"
+  },
+  {
+    "usuarioId": "usu_000173",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000059",
+    "fecha": "2026-10-29T02:31:03.833Z"
+  },
+  {
+    "usuarioId": "usu_000174",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000060",
+    "fecha": "2026-10-29T02:31:03.838Z"
+  },
+  {
+    "usuarioId": "usu_000176",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000061",
+    "fecha": "2026-10-29T02:31:03.847Z"
+  },
+  {
+    "usuarioId": "usu_000177",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000062",
+    "fecha": "2026-10-29T02:31:03.852Z"
+  },
+  {
+    "usuarioId": "usu_000179",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000063",
+    "fecha": "2026-10-29T02:31:03.861Z"
+  },
+  {
+    "usuarioId": "usu_000180",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000064",
+    "fecha": "2026-10-29T02:31:03.867Z"
+  },
+  {
+    "usuarioId": "usu_000182",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000065",
+    "fecha": "2026-10-29T02:31:03.876Z"
+  },
+  {
+    "usuarioId": "usu_000183",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000066",
+    "fecha": "2026-10-29T02:31:03.882Z"
+  },
+  {
+    "usuarioId": "usu_000185",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000067",
+    "fecha": "2026-10-29T02:31:03.888Z"
+  },
+  {
+    "usuarioId": "usu_000186",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000068",
+    "fecha": "2026-10-29T02:31:03.897Z"
+  },
+  {
+    "usuarioId": "usu_000188",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000069",
+    "fecha": "2026-10-29T02:31:03.903Z"
+  },
+  {
+    "usuarioId": "usu_000189",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000070",
+    "fecha": "2026-10-29T02:31:03.917Z"
+  },
+  {
+    "usuarioId": "usu_000191",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000071",
+    "fecha": "2026-10-29T02:31:03.926Z"
+  },
+  {
+    "usuarioId": "usu_000192",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000072",
+    "fecha": "2026-10-29T02:31:03.932Z"
+  },
+  {
+    "usuarioId": "usu_000194",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000073",
+    "fecha": "2026-10-29T02:31:03.941Z"
+  },
+  {
+    "usuarioId": "usu_000195",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000074",
+    "fecha": "2026-10-29T02:31:03.949Z"
+  },
+  {
+    "usuarioId": "usu_000197",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000075",
+    "fecha": "2026-10-29T02:31:03.958Z"
+  },
+  {
+    "usuarioId": "usu_000198",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000076",
+    "fecha": "2026-10-29T02:31:03.965Z"
+  },
+  {
+    "usuarioId": "usu_000200",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000077",
+    "fecha": "2026-10-29T02:31:03.979Z"
+  },
+  {
+    "usuarioId": "usu_000201",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000078",
+    "fecha": "2026-10-29T02:31:03.987Z"
+  },
+  {
+    "usuarioId": "usu_000203",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000079",
+    "fecha": "2026-10-29T02:31:03.998Z"
+  },
+  {
+    "usuarioId": "usu_000204",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000080",
+    "fecha": "2026-10-29T02:31:04.009Z"
+  },
+  {
+    "usuarioId": "usu_000206",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000081",
+    "fecha": "2026-10-29T02:31:04.017Z"
+  },
+  {
+    "usuarioId": "usu_000207",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000082",
+    "fecha": "2026-10-29T02:31:04.029Z"
+  },
+  {
+    "usuarioId": "usu_000209",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000083",
+    "fecha": "2026-10-29T02:31:04.035Z"
+  },
+  {
+    "usuarioId": "usu_000210",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000084",
+    "fecha": "2026-10-29T02:31:04.042Z"
+  },
+  {
+    "usuarioId": "usu_000212",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000085",
+    "fecha": "2026-10-29T02:31:04.047Z"
+  },
+  {
+    "usuarioId": "usu_000213",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000086",
+    "fecha": "2026-10-29T02:31:04.053Z"
+  },
+  {
+    "usuarioId": "usu_000215",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000087",
+    "fecha": "2026-10-29T02:31:04.062Z"
+  },
+  {
+    "usuarioId": "usu_000216",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000088",
+    "fecha": "2026-10-29T02:31:04.068Z"
+  },
+  {
+    "usuarioId": "usu_000218",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000089",
+    "fecha": "2026-10-29T02:31:04.078Z"
+  },
+  {
+    "usuarioId": "usu_000219",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000090",
+    "fecha": "2026-10-29T02:31:04.084Z"
+  },
+  {
+    "usuarioId": "usu_000221",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000091",
+    "fecha": "2026-10-29T02:31:04.095Z"
+  },
+  {
+    "usuarioId": "usu_000222",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000092",
+    "fecha": "2026-10-29T02:31:04.101Z"
+  },
+  {
+    "usuarioId": "usu_000224",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000093",
+    "fecha": "2026-10-29T02:31:04.109Z"
+  },
+  {
+    "usuarioId": "usu_000225",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000094",
+    "fecha": "2026-10-29T02:31:04.115Z"
+  },
+  {
+    "usuarioId": "usu_000227",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000095",
+    "fecha": "2026-10-29T02:31:04.120Z"
+  },
+  {
+    "usuarioId": "usu_000228",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000096",
+    "fecha": "2026-10-29T02:31:04.131Z"
+  },
+  {
+    "usuarioId": "usu_000230",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000097",
+    "fecha": "2026-10-29T02:31:04.137Z"
+  },
+  {
+    "usuarioId": "usu_000231",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000098",
+    "fecha": "2026-10-29T02:31:04.148Z"
+  },
+  {
+    "usuarioId": "usu_000233",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000099",
+    "fecha": "2026-10-29T02:31:04.153Z"
+  },
+  {
+    "usuarioId": "usu_000234",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000100",
+    "fecha": "2026-10-29T02:31:04.161Z"
+  },
+  {
+    "usuarioId": "usu_000236",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000101",
+    "fecha": "2026-10-29T02:31:04.168Z"
+  },
+  {
+    "usuarioId": "usu_000237",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000102",
+    "fecha": "2026-10-29T02:31:04.175Z"
+  },
+  {
+    "usuarioId": "usu_000239",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000103",
+    "fecha": "2026-10-29T02:31:04.181Z"
+  },
+  {
+    "usuarioId": "usu_000240",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000104",
+    "fecha": "2026-10-29T02:31:04.191Z"
+  },
+  {
+    "usuarioId": "usu_000242",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000105",
+    "fecha": "2026-10-29T02:31:04.199Z"
+  },
+  {
+    "usuarioId": "usu_000243",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000106",
+    "fecha": "2026-10-29T02:31:04.209Z"
+  },
+  {
+    "usuarioId": "usu_000245",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000107",
+    "fecha": "2026-10-29T02:31:04.230Z"
+  },
+  {
+    "usuarioId": "usu_000246",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000108",
+    "fecha": "2026-10-29T02:31:04.251Z"
+  },
+  {
+    "usuarioId": "usu_000248",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000109",
+    "fecha": "2026-10-29T02:31:04.268Z"
+  },
+  {
+    "usuarioId": "usu_000249",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000110",
+    "fecha": "2026-10-29T02:31:04.279Z"
+  },
+  {
+    "usuarioId": "usu_000251",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000111",
+    "fecha": "2026-10-29T02:31:04.287Z"
+  },
+  {
+    "usuarioId": "usu_000252",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000112",
+    "fecha": "2026-10-29T02:31:04.300Z"
+  },
+  {
+    "usuarioId": "usu_000254",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000113",
+    "fecha": "2026-10-29T02:31:04.308Z"
+  },
+  {
+    "usuarioId": "usu_000255",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000114",
+    "fecha": "2026-10-29T02:31:04.314Z"
+  },
+  {
+    "usuarioId": "usu_000257",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000115",
+    "fecha": "2026-10-29T02:31:04.320Z"
+  },
+  {
+    "usuarioId": "usu_000258",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000116",
+    "fecha": "2026-10-29T02:31:04.328Z"
+  },
+  {
+    "usuarioId": "usu_000260",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000117",
+    "fecha": "2026-10-29T02:31:04.334Z"
+  },
+  {
+    "usuarioId": "usu_000261",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000118",
+    "fecha": "2026-10-29T02:31:04.343Z"
+  },
+  {
+    "usuarioId": "usu_000263",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000119",
+    "fecha": "2026-10-29T02:31:04.350Z"
+  },
+  {
+    "usuarioId": "usu_000264",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000120",
+    "fecha": "2026-10-29T02:31:04.358Z"
+  },
+  {
+    "usuarioId": "usu_000266",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000121",
+    "fecha": "2026-10-29T02:31:04.366Z"
+  },
+  {
+    "usuarioId": "usu_000267",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000122",
+    "fecha": "2026-10-29T02:31:04.374Z"
+  },
+  {
+    "usuarioId": "usu_000269",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000123",
+    "fecha": "2026-10-29T02:31:04.381Z"
+  },
+  {
+    "usuarioId": "usu_000270",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000124",
+    "fecha": "2026-10-29T02:31:04.387Z"
+  },
+  {
+    "usuarioId": "usu_000272",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000125",
+    "fecha": "2026-10-29T02:31:04.396Z"
+  },
+  {
+    "usuarioId": "usu_000273",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000126",
+    "fecha": "2026-10-29T02:31:04.402Z"
+  },
+  {
+    "usuarioId": "usu_000275",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000127",
+    "fecha": "2026-10-29T02:31:04.411Z"
+  },
+  {
+    "usuarioId": "usu_000276",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000128",
+    "fecha": "2026-10-29T02:31:04.418Z"
+  },
+  {
+    "usuarioId": "usu_000278",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000129",
+    "fecha": "2026-10-29T02:31:04.428Z"
+  },
+  {
+    "usuarioId": "usu_000279",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000130",
+    "fecha": "2026-10-29T02:31:04.434Z"
+  },
+  {
+    "usuarioId": "usu_000281",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000131",
+    "fecha": "2026-10-29T02:31:04.441Z"
+  },
+  {
+    "usuarioId": "usu_000282",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000132",
+    "fecha": "2026-10-29T02:31:04.448Z"
+  },
+  {
+    "usuarioId": "usu_000284",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000133",
+    "fecha": "2026-10-29T02:31:04.455Z"
+  },
+  {
+    "usuarioId": "usu_000285",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000134",
+    "fecha": "2026-10-29T02:31:04.462Z"
+  },
+  {
+    "usuarioId": "usu_000287",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000135",
+    "fecha": "2026-10-29T02:31:04.469Z"
+  },
+  {
+    "usuarioId": "usu_000288",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000136",
+    "fecha": "2026-10-29T02:31:04.479Z"
+  },
+  {
+    "usuarioId": "usu_000290",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000137",
+    "fecha": "2026-10-29T02:31:04.485Z"
+  },
+  {
+    "usuarioId": "usu_000291",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000138",
+    "fecha": "2026-10-29T02:31:04.494Z"
+  },
+  {
+    "usuarioId": "usu_000293",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000139",
+    "fecha": "2026-10-29T02:31:04.501Z"
+  },
+  {
+    "usuarioId": "usu_000294",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000140",
+    "fecha": "2026-10-29T02:31:04.509Z"
+  },
+  {
+    "usuarioId": "usu_000296",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000141",
+    "fecha": "2026-10-29T02:31:04.517Z"
+  },
+  {
+    "usuarioId": "usu_000297",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000142",
+    "fecha": "2026-10-29T02:31:04.527Z"
+  },
+  {
+    "usuarioId": "usu_000299",
+    "tipo": "noticia",
+    "mensaje": "Nueva noticia publicada: Mantenimiento del campus",
+    "enlace": "/paginas/noticia.html?id=not_general",
+    "leida": false,
+    "id": "not_000143",
+    "fecha": "2026-10-29T02:31:04.534Z"
+  }
+]

@@ -1,0 +1,585 @@
+[
+  {
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "Según el glosario, ¿cómo se define a la solución de continuidad traumática o quirúrgica en la piel y tejidos subyacentes?",
+    "opciones": [
+      "Seroma",
+      "Herida",
+      "Hematoma",
+      "Apósito"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La herida se define exactamente como una solución de continuidad traumática o quirúrgica en la piel y tejidos subyacentes.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000001",
+    "fecha": "2026-10-27T23:10:54.915Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "De acuerdo con el contenido, ¿qué término describe al conjunto de métodos aplicados para conservar la esterilidad y prevenir la entrada de gérmenes?",
+    "opciones": [
+      "Asepsia",
+      "Lavado",
+      "Curado",
+      "Sutura"
+    ],
+    "correcta": 0,
+    "retroalimentacion": "La asepsia corresponde al conjunto de métodos aplicados para conservar la esterilidad y prevenir la entrada de gérmenes.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000002",
+    "fecha": "2026-10-27T23:10:54.930Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "Según el glosario, ¿cuál es la definición de seroma?",
+    "opciones": [
+      "Colección sanguínea localizada producida por hemorragia en el lecho quirúrgico.",
+      "Acumulación anormal de líquido linfático o seroso en el espacio muerto quirúrgico.",
+      "Irritación mecánica de la incisión con solución fisiológica estéril.",
+      "Material e hilo quirúrgico utilizado para aproximar los bordes."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "El seroma se define como la acumulación anormal de líquido linfático o seroso en el espacio muerto quirúrgico.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000003",
+    "fecha": "2026-10-27T23:10:54.945Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "opcion",
+    "enunciado": "¿Cómo se define al hematoma en el contexto del manejo de heridas posquirúrgicas?",
+    "opciones": [
+      "Acumulación anormal de líquido linfático en el espacio muerto.",
+      "Colección sanguínea localizada producida por hemorragia en el lecho quirúrgico.",
+      "Dispositivo tubular para evacuar colecciones líquidas.",
+      "Material estéril absorbente aplicado sobre la incisión."
+    ],
+    "correcta": 1,
+    "retroalimentacion": "El hematoma es una colección sanguínea localizada producida por hemorragia en el lecho quirúrgico.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000004",
+    "fecha": "2026-10-27T23:10:54.960Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "vf",
+    "enunciado": "El lavado se define como la irrigación mecánica de la incisión con solución fisiológica estéril para eliminar detritos.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "El glosario establece textualmente que el lavado es la irrigación mecánica de la incisión con solución fisiológica estéril para eliminar detritos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000005",
+    "fecha": "2026-10-27T23:10:54.976Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "vf",
+    "enunciado": "Las grapas son dispositivos tubulares o laminares utilizados exclusivamente para evacuar colecciones líquidas.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "Las grapas son grapas metálicas de acero inoxidable para aproximación rápida; los dispositivos tubulares para evacuar líquidos son los drenes.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000006",
+    "fecha": "2026-10-27T23:10:54.990Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "vf",
+    "enunciado": "El apósito se define como el material estéril absorbente aplicado sobre la incisión para protegerla y absorber fluidos.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "La definición correcta del glosario indica que el apósito es el material estéril absorbente aplicado sobre la incisión para protegerla y absorber fluidos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000007",
+    "fecha": "2026-10-27T23:10:55.005Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "completar",
+    "enunciado": "Los ____ son dispositivos tubulares o laminares para evacuar colecciones líquidas del lecho operatorio.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": "drenes",
+    "retroalimentacion": "El glosario define a los drenes como dispositivos tubulares o laminares para evacuar colecciones líquidas del lecho operatorio.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000008",
+    "fecha": "2026-10-27T23:10:55.020Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "completar",
+    "enunciado": "La ____ es el material e hilo quirúrgico utilizado para aproximar los bordes de la incisión.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": "sutura",
+    "retroalimentacion": "La sutura es el material e hilo quirúrgico utilizado para aproximar los bordes de la incisión según el glosario.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000009",
+    "fecha": "2026-10-27T23:10:55.034Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 1,
+    "tipo": "completar",
+    "enunciado": "El ____ es el procedimiento asistencial de higiene, asepsia y curación periódica de la herida.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": "curado",
+    "retroalimentacion": "El término correcto según el glosario es curado, definido como el procedimiento asistencial de higiene, asepsia y curación periódica.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000010",
+    "fecha": "2026-10-27T23:10:55.049Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 2,
+    "tipo": "opcion",
+    "enunciado": "Según los principios de manejo de heridas posquirúrgicas, ¿cuál es el propósito principal de realizar el lavado mediante irrigación mecánica de la incisión?",
+    "opciones": [
+      "Aplicar presión para aproximar los bordes de la piel",
+      "Eliminar detritos del lecho operatorio utilizando solución fisiológica estéril",
+      "Estimular la producción de líquido linfático y prevenir seromas",
+      "Sustituir el uso de apósitos y parches protectores estériles"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "El lavado consiste en la irrigación mecánica con solución fisiológica estéril para eliminar detritos de la incisión, cumpliendo con los principios de asepsia.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000011",
+    "fecha": "2026-10-27T23:27:54.191Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 2,
+    "tipo": "vf",
+    "enunciado": "Un seroma se define como la acumulación anormal de líquido linfático o seroso en el espacio muerto quirúrgico.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "El glosario establece claramente que el seroma corresponde a la acumulación anormal de líquido linfático o seroso en el espacio muerto quirúrgico.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000012",
+    "fecha": "2026-10-27T23:27:54.210Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 2,
+    "tipo": "opcion",
+    "enunciado": "Dentro de los conceptos fundamentales para el cuidado de heridas, ¿cómo se define al conjunto de métodos aplicados para conservar la esterilidad y prevenir la entrada de gérmenes?",
+    "opciones": [
+      "Curado",
+      "Asepsia",
+      "Drenaje",
+      "Sutura"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "La asepsia es el conjunto de métodos aplicados específicamente para conservar la esterilidad y prevenir la entrada de gérmenes en la herida.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000013",
+    "fecha": "2026-10-27T23:27:54.226Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 2,
+    "tipo": "completar",
+    "enunciado": "Los dispositivos tubulares o laminares empleados para evacuar colecciones líquidas del lecho operatorio se denominan ____.",
+    "opciones": [
+      "drenes"
+    ],
+    "correcta": "drenes",
+    "retroalimentacion": "Los drenes son dispositivos tubulares o laminares diseñados específicamente para evacuar colecciones líquidas del lecho operatorio.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000014",
+    "fecha": "2026-10-27T23:27:54.244Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 2,
+    "tipo": "vf",
+    "enunciado": "Las grapas son dispositivos metálicos de acero inoxidable que se emplean para la aproximación lenta de los bordes cutáneos en heridas profundas.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "Las grafas son grapas metálicas de acero inoxidable empleadas para la aproximación rápida de los bordes cutáneos, no lenta.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000015",
+    "fecha": "2026-10-27T23:27:54.259Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "Durante la aplicación de los protocolos clínicos en el manejo de una herida posquirúrgica limpia, ¿qué acción corresponde realizar como parte de la técnica estéril para el cambio de apósitos?",
+    "opciones": [
+      "Realizar una irrigación mecánica de la incisión con solución fisiológica estéril para eliminar detritos.",
+      "Aplicar presión directa con gasas no estériles para acelerar la absorción de fluidos.",
+      "Retirar todas las suturas y grapas en las primeras 24 horas sin valorar la evolución.",
+      "Dejar la herida completamente expuesta al aire libre sin utilizar ningún parche o apósito."
+    ],
+    "correcta": 0,
+    "retroalimentacion": "El lavado mediante irrigación mecánica con solución fisiológica estéril es el procedimiento adecuado para eliminar detritos durante la curación estéril.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000016",
+    "fecha": "2026-10-27T23:28:08.391Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 3,
+    "tipo": "vf",
+    "enunciado": "Para la aproximación rápida de los bordes cutáneos en una incisión quirúrgica, está indicado el uso de grapas metálicas de acero inoxidable.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "Las grapas son dispositivos metálicos de acero inoxidable empleados específicamente para la aproximación rápida de los bordes cutáneos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000017",
+    "fecha": "2026-10-27T23:28:08.407Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 3,
+    "tipo": "completar",
+    "enunciado": "La acumulación anormal de líquido linfático o seroso en el espacio muerto quirúrgico se denomina ____.",
+    "opciones": [
+      "seroma"
+    ],
+    "correcta": "seroma",
+    "retroalimentacion": "Un seroma es la colección anormal de líquido linfático o seroso que se forma en el espacio muerto generado tras la cirugía.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000018",
+    "fecha": "2026-10-27T23:28:08.423Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 3,
+    "tipo": "opcion",
+    "enunciado": "Si durante la evolución de una incisión posoperatoria se identifica una colección sanguínea localizada producto de hemorragia en el lecho quirúrgico, ¿cómo se le define clínicamente?",
+    "opciones": [
+      "Seroma",
+      "Hematoma",
+      "Sutura",
+      "Drene"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "El hematoma se define específicamente como la colección sanguínea localizada producida por hemorragia en el lecho quirúrgico.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000019",
+    "fecha": "2026-10-27T23:28:08.439Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 3,
+    "tipo": "vf",
+    "enunciado": "Los apósitos son materiales estériles absorbentes aplicados sobre la incisión para protegerla y absorber fluidos.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "El apósito cumple la función de ser un material estéril absorbente aplicado sobre la incisión para su protección y control de fluidos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000020",
+    "fecha": "2026-10-27T23:28:08.453Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "Un paciente posquirúrgico presenta acumulación anormal de líquido seroso en el espacio muerto quirúrgico tras el retiro de drenes. ¿Qué complicación local se debe analizar en este caso?",
+    "opciones": [
+      "Hematoma",
+      "Seroma",
+      "Dehiscencia",
+      "Infección profunda"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "El seroma se define como la acumulación anormal de líquido linfático o seroso en el espacio muerto quirúrgico.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000021",
+    "fecha": "2026-10-27T23:28:25.183Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "Durante la valoración de una incisión quirúrgica se observa una colección sanguínea localizada producto de hemorragia en el lecho. ¿Cómo se denomina esta condición según los protocolos clínicos?",
+    "opciones": [
+      "Seroma",
+      "Hematoma",
+      "Exudado",
+      "Detrito"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "El hematoma corresponde específicamente a una colección sanguínea localizada producida por hemorragia en el lecho quirúrgico.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000022",
+    "fecha": "2026-10-27T23:28:25.199Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "Para la higiene y asepsia de una incisión quirúrgica que presenta detritos, se realiza una irrigación mecánica con solución fisiológica estéril. ¿Qué procedimiento se está aplicando?",
+    "opciones": [
+      "Curado",
+      "Lavado",
+      "Asepsia",
+      "Drenaje"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "El lavado es la irrigación mecánica de la incisión con solución fisiológica estéril para eliminar detritos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000023",
+    "fecha": "2026-10-27T23:28:25.212Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 4,
+    "tipo": "opcion",
+    "enunciado": "Al analizar el manejo de una incisión quirúrgica, se decide utilizar un material estéril absorbente aplicado directamente sobre la herida para protegerla y absorber fluidos. ¿Qué elemento se está empleando?",
+    "opciones": [
+      "Parche",
+      "Dren",
+      "Apósito",
+      "Sutura"
+    ],
+    "correcta": 2,
+    "retroalimentacion": "El apósito es el material estéril absorbente aplicado sobre la incisión para protegerla y absorber fluidos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000024",
+    "fecha": "2026-10-27T23:28:25.227Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 4,
+    "tipo": "vf",
+    "enunciado": "La asepsia se define como el conjunto de métodos aplicados para conservar la esterilidad y prevenir la entrada de gérmenes en la herida posquirúrgica.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "La definición exacta según el contenido es el conjunto de métodos aplicados para conservar la esterilidad y prevenir la entrada de gérmenes.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000025",
+    "fecha": "2026-10-27T23:28:25.242Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 4,
+    "tipo": "vf",
+    "enunciado": "Las grapas son dispositivos tubulares o laminares utilizados exclusivamente para evacuar colecciones líquidas del lecho operatorio.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": false,
+    "retroalimentacion": "Las grapas son grapas metálicas de acero inoxidable empleadas para aproximación rápida de bordes cutáneos, mientras que los drenes son los dispositivos para evacuar colecciones.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000026",
+    "fecha": "2026-10-27T23:28:25.257Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 4,
+    "tipo": "completar",
+    "enunciado": "La solución de continuidad traumática o quirúrgica en la piel y tejidos subyacentes se denomina ____.",
+    "opciones": [
+      "herida"
+    ],
+    "correcta": "herida",
+    "retroalimentacion": "El glosario define herida como la solución de continuidad traumática o quirúrgica en la piel y tejidos subyacentes.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000027",
+    "fecha": "2026-10-27T23:28:25.272Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 4,
+    "tipo": "completar",
+    "enunciado": "El material e hilo quirúrgico utilizado para aproximar los bordes de la incisión se conoce como ____.",
+    "opciones": [
+      "sutura"
+    ],
+    "correcta": "sutura",
+    "retroalimentacion": "La sutura es el material e hilo quirúrgico utilizado para aproximar los bordes de la incisión.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000028",
+    "fecha": "2026-10-27T23:28:25.286Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 4,
+    "tipo": "completar",
+    "enunciado": "Para la aproximación rápida de los bordes cutáneos mediante el uso de grapas metálicas de acero inoxidable, se emplean dichas ____.",
+    "opciones": [
+      "grapas"
+    ],
+    "correcta": "grapas",
+    "retroalimentacion": "Las grapas son grapas metálicas de acero inoxidable empleadas para la aproximación rápida de bordes cutáneos.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000029",
+    "fecha": "2026-10-27T23:28:25.299Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 4,
+    "tipo": "completar",
+    "enunciado": "El procedimiento asistencial de higiene, asepsia y curación periódica de la herida se denomina ____.",
+    "opciones": [
+      "curado"
+    ],
+    "correcta": "curado",
+    "retroalimentacion": "El curado se define como el procedimiento asistencial de higiene, asepsia y curación periódica de la herida.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000030",
+    "fecha": "2026-10-27T23:28:25.313Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 5,
+    "tipo": "opcion",
+    "enunciado": "Ante la presencia de una acumulación anormal de líquido linfático o seroso en el espacio muerto de una incisión quirúrgica, ¿cuál de las siguientes complicaciones se ha desarrollado?",
+    "opciones": [
+      "Hematoma",
+      "Seroma",
+      "Dehiscencia",
+      "Infección superficial"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "El seroma se define como la acumulación anormal de líquido linfático o seroso en el espacio muerto quirúrgico, diferenciándose del hematoma que corresponde a una colección sanguínea.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000031",
+    "fecha": "2026-10-27T23:28:47.381Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 5,
+    "tipo": "vf",
+    "enunciado": "El lavado de la incisión quirúrgica se realiza mediante irrigación mecánica utilizando solución fisiológica estéril para eliminar detritos.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": true,
+    "retroalimentacion": "El lavado consiste en la irrigación mecánica de la incisión con solución fisiológica estéril para eliminar detritos y mantener los principios de asepsia.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000032",
+    "fecha": "2026-10-27T23:28:47.396Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 5,
+    "tipo": "opcion",
+    "enunciado": "¿Qué método o dispositivo se emplea para evacuar colecciones líquidas del lecho operatorio durante el manejo posquirúrgico?",
+    "opciones": [
+      "Sutura",
+      "Grapas",
+      "Drenes",
+      "Apósito"
+    ],
+    "correcta": 2,
+    "retroalimentacion": "Los drenes son dispositivos tubulares o laminares diseñados específicamente para evacuar colecciones líquidas del lecho operatorio y prevenir complicaciones.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000033",
+    "fecha": "2026-10-27T23:28:47.411Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 5,
+    "tipo": "completar",
+    "enunciado": "El conjunto de métodos aplicados para conservar la esterilidad y prevenir la entrada de gérmenes en la herida posquirúrgica se denomina ____.",
+    "opciones": [
+      "asepsia"
+    ],
+    "correcta": "asepsia",
+    "retroalimentacion": "La asepsia es el conjunto de métodos aplicados para conservar la esterilidad y prevenir la entrada de gérmenes durante el manejo de la herida.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000034",
+    "fecha": "2026-10-27T23:28:47.425Z"
+  },
+  {
+    "temaId": "tem_000001",
+    "nivel": 5,
+    "tipo": "opcion",
+    "enunciado": "Durante la evaluación del sitio quirúrgico, se identifica una colección sanguínea localizada producida por hemorragia en el lecho. ¿Cómo se clasifica este hallazgo?",
+    "opciones": [
+      "Seroma",
+      "Hematoma",
+      "Apósito",
+      "Parche"
+    ],
+    "correcta": 1,
+    "retroalimentacion": "El hematoma se define como una colección sanguínea localizada producida por hemorragia en el lecho quirúrgico, requiriendo valoración clínica oportuna.",
+    "origen": "ia",
+    "estado": "aprobado",
+    "id": "pre_000035",
+    "fecha": "2026-10-27T23:28:47.439Z"
+  }
+]

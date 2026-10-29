@@ -1,0 +1,24 @@
+[
+  {
+    "estudianteId": "usu_inactivo_prueba",
+    "docenteId": "usu_000002",
+    "grupoId": "gru_inactividad_test",
+    "regla": "inactividad",
+    "temaId": null,
+    "detalle": "Sin eventos en la bitácora desde hace 10 días (umbral: 7 días).",
+    "estado": "activa",
+    "id": "ale_000001",
+    "fecha": "2026-10-29T02:30:52.949Z"
+  },
+  {
+    "estudianteId": "usu_puntos_1793241060198",
+    "docenteId": null,
+    "grupoId": null,
+    "regla": "promedioBajo",
+    "temaId": null,
+    "detalle": "Promedio de 6.7/10 en los últimos 3 intentos (umbral: 7).",
+    "estado": "activa",
+    "id": "ale_000002",
+    "fecha": "2026-10-29T02:31:00.285Z"
+  }
+]
